@@ -41,6 +41,59 @@ def cost_sensing_xgb (c0=1.0,c1=1.0):
     return csxgb
 
 
+################################################################
+# Symmetric  Modified Focal loss with  Cost sensing link       #
+################################################################
+
+def gradient_mfcsxgb(preds: np.ndarray, dtrain: xgb.DMatrix,c0=1.0,c1=1.0,gamma1=0.0,alpha=1.0):           
+    labels = dtrain.get_label()
+    preds=1/(1+np.exp(-2*preds))
+    preds2=1-preds    
+    fy=(1/(c1+c0))*np.log((preds*c1)/(preds2*c0)) 
+    eta=0.5*np.log(c0/c1)
+    delta=(c1+c0)/2   
+    py=1/(1+np.exp((-2*delta*fy)-(2*eta)))
+    eta1=np.power(1-py,gamma1)*(1-np.divide(gamma1*py*np.log(py),1-py))
+    eta2=np.power(py,gamma1)*(np.divide(gamma1*(1-py)*np.log(1-py),py)-1)      
+    grad=-2*delta*(alpha*labels*(1-py)*eta1+(1-labels)*py*eta2) 
+    return grad
+
+def hessian_mfcsxgb(preds: np.ndarray, dtrain: xgb.DMatrix,c0=1,c1=1,gamma1=0.0,alpha=1.0):  
+    labels = dtrain.get_label()    
+    preds=1/(1+np.exp(-2*preds))
+    preds2=1-preds    
+    fy=(1/(c1+c0))*np.log((preds*c1)/(preds2*c0)) 
+    eta=0.5*np.log(c0/c1)
+    delta=(c1+c0)/2   
+    py=1/(1+np.exp((-2*delta*fy)-(2*eta)))
+    eta1=np.power(1-py,gamma1)*(1-np.divide(gamma1*py*np.log(py),1-py))
+    eta2=np.power(py,gamma1)*(np.divide(gamma1*(1-py)*np.log(1-py),py)-1)    
+    eta3=np.power(1-py,gamma1)*(np.divide(gamma1*py,1-py)*(np.divide((gamma1-1)*py*np.log(py),1-py)-2)-1)
+    eta4=np.power(py,gamma1)*(np.divide(gamma1*(1-py),py)*(np.divide((gamma1-1)*(1-py)*np.log(1-py),py)-2)-1)
+    hess_part1=(alpha*labels*(1-py)*eta1)+((1-labels)*py*eta2)
+    hess_part2=(alpha*labels*eta3*(1-py)**2)+((1-labels)*eta4*py**2)
+    hess= -4*np.power(delta,2)*((1-2*py)*hess_part1+hess_part2)
+    return hess
+''' Cost-sensitive XGBoost with a modified Focal loss.'''
+def modified_focal_loss_csxgb (c0=1.0,c1=1.0,gamma1=0.0,alpha=1.0):    
+    def mfcsxgb(preds: np.ndarray, dtrain: xgb.DMatrix):
+        """Mushava, J., & Murray, M. (2022). A novel XGBoost extension for credit scoring class-imbalanced data combining a generalized extreme value link and a modified focal loss function.
+        Expert Systems with Applications, 202, 117233. 
+        Parameters
+        ----------
+        c0 : float, default value is 1.0
+            link function parameter. Denote the cost of incorrectly classifying a negative case (y=0) as a positive case (y=1).
+        c1 : float, default value is 1.0
+            link function parameter. Denote the cost of incorrectly classifying a positive case (y=1) as a negative case (y=0).
+        alpha : float, default value is 1.0.
+            Penalty parameter in the loss function control the degree of weight assigned to the misclassifcation of the positive class (y = 1).
+        gamma1 : float, default value is 1.0
+            focal parameter controls degree of down-weighting of easy to classify cases."""
+        grad = gradient_mfcsxgb(preds, dtrain,c0,c1,gamma1,alpha)
+        hess = hessian_mfcsxgb(preds, dtrain,c0,c1,gamma1,alpha)
+        return grad, hess
+    return mfcsxgb
+
    
 ################################################################
 #     Symmetric  Modified Focal loss    with GEV link          #
