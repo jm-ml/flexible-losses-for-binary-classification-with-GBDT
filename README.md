@@ -46,62 +46,32 @@ def MCC(y_true, y_pred):
     den =(tp+fp)*(tp+fn)*(tn+fp)*(tn+fn)
     return np.divide(num,np.power(den,0.5))
 
+###########################################################################################################
+# Example : Implementing the symmetric hybrid loss function with an EEL distribution based link function  #
+###########################################################################################################
 
+#datasets
+dmatrix_train = xgb.DMatrix(data=x_train, label=y_train) #training sample in DMatrix form
+dmatrix_val = xgb.DMatrix(data=x_validate, label=y_validate) #validation sample in DMatrix form
 
-# Importing the training sample
-training = pd.read_csv('FM12.csv')   #Importing the primary modeling dataset, i.e. FM12.csv in this case
-# Spling the training sample into equal halves randomly
-train, validate = \
-              np.split(training.sample(frac=1), [int(.5*len(training))])  
-              
-x_train = train.iloc[:, 2:80].values  #set of predictors by selecting all rows;excluding last column
-y_train = np.float32(np.array(train.iloc[:, 0].values, float))   # first row of data frame
-cases=round(len(train)*1) #cases to use for modelling
-
-x_validate = validate.iloc[:, 2:80].values  #set of predictors by selecting all rows;excluding last column
-y_validate = np.float32(np.array(validate.iloc[:, 0].values, float))   # first row of data frame
-                  
-dmatrix_train = xgb.DMatrix(data=x_train, label=y_train)
-dmatrix_val = xgb.DMatrix(data=x_validate, label=y_validate)
-
-
-# implementing the symmetric hybrid loss function with an EEL distribution based link function
-num_round=10
-model = xgb.train(params,
-                  dmatrix_train,
-                  num_round,
-                  obj=fxgb.symmetric_unified_focal_eel(alpha=1,delta=0.6,gamma1=1.25, gamma2=2,lamda=0.25, beta=0.75,pi=0.2)     
+#model fitting
+model = xgb.train(
+                  params, #Hyperparameter set
+                  dmatrix_train, 
+                  num_round, #number of iterations
+                  obj=fxgb.symmetric_unified_focal_eel(alpha=1,delta=0.6,gamma1=1.25, gamma2=2,lamda=0.25, beta=0.75,pi=0.2) #custom hybrid loss function    
                  )
-#making predictions using a standard EEL distribution-based link function                 
+#making predictions on a validation sample using a standard EEL distribution-based link function  
+#note the raw XGBoost predictions are passed to the eel link
 y_pred = eel(model.predict(dmatrix_val,output_margin=True)+0.5,lamda=0.25, beta=0.75)
 
-#estimate H measure, Dice score and MMC for validation sample
-h_val = h_score(y_validate, y_pred_val)
-h_test_oos = h_score(y_test_oos, y_pred_test_oos)
-h_test_oot = h_score(y_test_oot, y_pred_test_oot)
+#estimate H measure, Dice score and MCC for validation sample with target outcome, y_true as a 0/1 target outcome. 
+H_measure = h_score(y_validate, y_pred)
+Dice=DSC(y_validate, y_pred)    
+MCC=MCC(y_validate, y_pred)    
 
-auc_test_oos = roc_auc_score(y_test_oos, y_pred_test_oos)
-auc_test_oot = roc_auc_score(y_test_oot, y_pred_test_oot)
+#Print performance
+print("H measure: {:.4%}".format(H_measure))
+print("Dice score: {:.4%}".format(Dice))
+print("MCC: {:.4%}".format(MCC))
 
-DSC_test_oos=fxgb.DSC(y_test_oos, y_pred_test_oos)    
-DSC_test_oot=fxgb.DSC(y_test_oot, y_pred_test_oot)
-
-MCC_test_oos=fxgb.MCC(y_test_oos, y_pred_test_oos)    
-MCC_test_oot=fxgb.MCC(y_test_oot, y_pred_test_oot)
-#Print statistics
-print("AUC oos E12: {:.4%}".format(auc_test_oos))
-print("AUC oot E12: {:.4%}".format(auc_test_oot))
-
-print("DSC oos E12: {:.4%}".format(DSC_test_oos))
-print("DSC oot E12: {:.4%}".format(DSC_test_oot))
-
-print("MCC oos E12: {:.4%}".format(MCC_test_oos))
-print("MCC oot E12: {:.4%}".format(MCC_test_oot))
-
-
-print("H val E12: {:.4%}".format(h_val))
-print("H measure oos E12: {:.4%}".format(h_test_oos))
-print("H measure oot E12: {:.4%}".format(h_test_oot))
-
-print("nrounds E12: {:}".format(best_iter))
-print ("Runtime E12: ",end_time-start_time)
