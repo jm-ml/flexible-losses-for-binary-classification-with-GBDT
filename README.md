@@ -1,11 +1,21 @@
 # flexible-losses-for-binary-classification-with-GBDT
 Gradient statistics for implementing a generalized hybrid loss function in gradient-boosted decision trees (GBDT) for binary classification tasks. 
 
-import FXGBoost as fxgb #Import flexible Gradient statistics. This also imports the vanilla XGBoost module
+import FXGBoost as fxgb #Import flexible Gradient statistics module.
 import numpy as np  #for mathematical operations
 from hmeasure import h_score #hmeasure
 
-#function for a standard EEL distribution-based link function
+###########################################
+#   standard GEV distibution based link   #
+###########################################
+def gevlink(x,tau=-0.25):
+    base=1 + (tau*x)
+    power=-1/tau        
+    return np.exp(-np.power(base,power)) 
+
+###########################################
+#   standard EEL distibution based link   #
+###########################################
 def eel(x,beta=0.75,lamda=0.75):
     p=np.power(1-np.power((1+np.exp(x)),-lamda),beta)
     return p
@@ -20,11 +30,10 @@ def DSC(y_true, y_pred):
     fp = np.sum((1-y_true) * y_pred)
     # Calculate Dice score
     dice_class = (2*tp)/((2*tp) + fp + fn)
-    return dice_class
-    
+    return dice_class  
 
 ###########################################
-#      MCC                         #
+#      MCC                                #
 ###########################################
 def MCC(y_true, y_pred):
     # Calculate true positives (tp),true megstivess(tn), false negatives (fn) and false positives (fp)
@@ -35,6 +44,8 @@ def MCC(y_true, y_pred):
     # Calculate Dice score
     num = (tp*tn)-(fp*fn)
     den =(tp+fp)*(tp+fn)*(tn+fp)*(tn+fn)
+    return np.divide(num,np.power(den,0.5))
+
 
 
 # Importing the training sample
