@@ -1,0 +1,2150 @@
+Train DR:  0.00581745991858069
+Validate DR:  0.006684424787656431
+Test DR:  0.006056037190601834
+IR : 171
+Alpha : 113.82697262246032
+Dropout : 0.13863425177793892
+Batch_size : 19
+Neurons : 62.0
+learning_rate : 0.3589493710277797
+Activation : gelu
+Layers : 2.0
+Validation loss : 392.440673828125
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 15.760032102777995
+Dropout : 0.4549923943170758
+Batch_size : 645
+Neurons : 46.0
+learning_rate : 0.4905654484630191
+Activation : PReLU
+Layers : 3.0
+Validation loss : 54.335784912109375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 22.844972047223667
+Dropout : 0.3019158732890792
+Batch_size : 382
+Neurons : 50.0
+learning_rate : 0.47800338283655197
+Activation : gelu
+Layers : 1.0
+Validation loss : 78.76243591308594
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 134.69750826359606
+Dropout : 0.4879155522477452
+Batch_size : 6895
+Neurons : 67.0
+learning_rate : 0.23216965697305536
+Activation : selu
+Layers : 2.0
+Validation loss : 464.3941345214844
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 18.8898711703669
+Dropout : 0.2667725315285283
+Batch_size : 274
+Neurons : 45.0
+learning_rate : 0.14759835761362106
+Activation : gelu
+Layers : 5.0
+Validation loss : 65.12635040283203
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 8.03437788395738
+Dropout : 0.15117140849419952
+Batch_size : 2499
+Neurons : 72.0
+learning_rate : 0.8058618538349877
+Activation : PReLU
+Layers : 3.0
+Validation loss : 27.69996452331543
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 64.91874917105851
+Dropout : 0.19551815652090937
+Batch_size : 73
+Neurons : 60.0
+learning_rate : 0.02584651512134628
+Activation : gelu
+Layers : 2.0
+Validation loss : 223.8190155029297
+AUC : 49.9874%
+DSC : 0.0000%
+MCC : -0.0000%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 47.28984318606405
+Dropout : 0.033310405834376444
+Batch_size : 628
+Neurons : 47.0
+learning_rate : 0.026865111987913637
+Activation : gelu
+Layers : 2.0
+Validation loss : 20.632322311401367
+AUC : 73.3836%
+DSC : 1.8578%
+MCC : 2.5783%
+H val : 18.3568%
+H measure : 15.9149%
+Alpha : 113.79572282391105
+Dropout : 0.007966257262400744
+Batch_size : 1993
+Neurons : 68.0
+learning_rate : 0.9136521226984439
+Activation : selu
+Layers : 2.0
+Validation loss : 392.3309326171875
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 63.11001502889021
+Dropout : 0.35047173843237045
+Batch_size : 55
+Neurons : 77.0
+learning_rate : 0.12644730098305523
+Activation : selu
+Layers : 1.0
+Validation loss : 217.583984375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 143.92597243791528
+Dropout : 0.454586395451065
+Batch_size : 399
+Neurons : 74.0
+learning_rate : 0.25584240828305205
+Activation : selu
+Layers : 2.0
+Validation loss : 496.2116394042969
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 26.80336826071868
+Dropout : 0.15899476923514688
+Batch_size : 115
+Neurons : 67.0
+learning_rate : 0.8534560724771406
+Activation : PReLU
+Layers : 1.0
+Validation loss : 506.6490478515625
+AUC : 50.0000%
+DSC : 1.2039%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 63.46341442893221
+Dropout : 0.3739026395551793
+Batch_size : 24
+Neurons : 63.0
+learning_rate : 0.952644422468995
+Activation : PReLU
+Layers : 3.0
+Validation loss : 427.74871826171875
+AUC : 53.3230%
+DSC : 1.3022%
+MCC : 1.2724%
+H val : 1.0577%
+H measure : 0.5538%
+Alpha : 156.88147163529038
+Dropout : 0.10608422043577748
+Batch_size : 78
+Neurons : 50.0
+learning_rate : 0.7658588515097833
+Activation : selu
+Layers : 2.0
+Validation loss : 540.8772583007812
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 161.86383249365494
+Dropout : 0.09490662089807983
+Batch_size : 78
+Neurons : 56.0
+learning_rate : 0.7177696040666157
+Activation : gelu
+Layers : 3.0
+Validation loss : 558.0558471679688
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 96.20829064354817
+Dropout : 0.05465363572225529
+Batch_size : 1751
+Neurons : 40.0
+learning_rate : 0.8092681038757503
+Activation : PReLU
+Layers : 2.0
+Validation loss : 331.6951599121094
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 168.66979107484894
+Dropout : 0.016322150532815494
+Batch_size : 143
+Neurons : 62.0
+learning_rate : 0.47574368673575307
+Activation : PReLU
+Layers : 3.0
+Validation loss : 581.5193481445312
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 163.62577534353125
+Dropout : 0.19653057075812685
+Batch_size : 3816
+Neurons : 63.0
+learning_rate : 0.4092259984215443
+Activation : selu
+Layers : 3.0
+Validation loss : 564.1300659179688
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 133.2047904494394
+Dropout : 0.05176529391922913
+Batch_size : 1453
+Neurons : 43.0
+learning_rate : 0.8675629874932413
+Activation : selu
+Layers : 2.0
+Validation loss : 459.2472229003906
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 14.502033935876854
+Dropout : 0.04082689329452094
+Batch_size : 48
+Neurons : 48.0
+learning_rate : 0.5174130015657804
+Activation : selu
+Layers : 3.0
+Validation loss : 49.99858856201172
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 42.624116280261205
+Dropout : 0.23036684560686066
+Batch_size : 7941
+Neurons : 40.0
+learning_rate : 0.6390132475322772
+Activation : gelu
+Layers : 1.0
+Validation loss : 146.95419311523438
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 43.41773303736048
+Dropout : 0.38309626557164983
+Batch_size : 874
+Neurons : 54.0
+learning_rate : 0.001961581313563554
+Activation : gelu
+Layers : 5.0
+Validation loss : 19.386253356933594
+AUC : 73.7266%
+DSC : 1.9427%
+MCC : 2.5065%
+H val : 19.8992%
+H measure : 17.2388%
+Alpha : 84.61812216360406
+Dropout : 0.39253194691827603
+Batch_size : 969
+Neurons : 54.0
+learning_rate : 0.6160435803817396
+Activation : gelu
+Layers : 5.0
+Validation loss : 291.7369079589844
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 1.0110152044109881
+Dropout : 0.3178735360926646
+Batch_size : 4364
+Neurons : 55.0
+learning_rate : 0.00012902521609124782
+Activation : gelu
+Layers : 5.0
+Validation loss : 1.205125093460083
+AUC : 74.6967%
+DSC : 1.0884%
+MCC : 0.5413%
+H val : 20.4821%
+H measure : 18.1585%
+Alpha : 1.0693553444746726
+Dropout : 0.3145951668093065
+Batch_size : 4460
+Neurons : 57.0
+learning_rate : 0.302188579146668
+Activation : gelu
+Layers : 1.0
+Validation loss : 3.6868088245391846
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 82.49709248937694
+Dropout : 0.4994604178360921
+Batch_size : 212
+Neurons : 43.0
+learning_rate : 0.12092197976021857
+Activation : gelu
+Layers : 5.0
+Validation loss : 284.4242248535156
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 33.208826292365394
+Dropout : 0.4265868094210424
+Batch_size : 4503
+Neurons : 51.0
+learning_rate : 0.9987237829394776
+Activation : gelu
+Layers : 1.0
+Validation loss : 114.49382019042969
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 105.31454321807558
+Dropout : 0.2658675343571976
+Batch_size : 16
+Neurons : 59.0
+learning_rate : 0.36628443618912176
+Activation : gelu
+Layers : 5.0
+Validation loss : 363.09130859375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 1.2808864977979362
+Dropout : 0.3213586296886259
+Batch_size : 28
+Neurons : 78.0
+learning_rate : 0.1925267685626822
+Activation : gelu
+Layers : 1.0
+Validation loss : 4.416103839874268
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 74.02946290512367
+Dropout : 0.4240083844734396
+Batch_size : 2973
+Neurons : 42.0
+learning_rate : 0.07342880717121464
+Activation : PReLU
+Layers : 1.0
+Validation loss : 26.742773056030273
+AUC : 74.6141%
+DSC : 1.9458%
+MCC : 2.8443%
+H val : 20.3107%
+H measure : 18.2542%
+Alpha : 53.23145675408339
+Dropout : 0.229139262121065
+Batch_size : 6425
+Neurons : 52.0
+learning_rate : 0.574739803844424
+Activation : gelu
+Layers : 3.0
+Validation loss : 183.5250701904297
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 124.56113062795944
+Dropout : 0.10753947218828916
+Batch_size : 533
+Neurons : 70.0
+learning_rate : 0.3116803723664971
+Activation : gelu
+Layers : 5.0
+Validation loss : 429.4476013183594
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 96.74569063256749
+Dropout : 0.288719644568495
+Batch_size : 1166
+Neurons : 45.0
+learning_rate : 0.4185382390420867
+Activation : PReLU
+Layers : 1.0
+Validation loss : 333.5483093261719
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 32.43094613772814
+Dropout : 0.4720833125802981
+Batch_size : 218
+Neurons : 65.0
+learning_rate : 0.6929379076711659
+Activation : gelu
+Layers : 3.0
+Validation loss : 111.81184387207031
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 10.236532480126954
+Dropout : 0.34329615010076364
+Batch_size : 6017
+Neurons : 59.0
+learning_rate : 0.197437183172037
+Activation : PReLU
+Layers : 2.0
+Validation loss : 35.29233932495117
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 149.1818062332208
+Dropout : 0.18305922528237878
+Batch_size : 438
+Neurons : 48.0
+learning_rate : 0.0726874841987109
+Activation : gelu
+Layers : 5.0
+Validation loss : 514.331787109375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 74.03462315680798
+Dropout : 0.07916344872164502
+Batch_size : 287
+Neurons : 74.0
+learning_rate : 0.536068730117276
+Activation : gelu
+Layers : 2.0
+Validation loss : 255.2486114501953
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 54.32548479111232
+Dropout : 0.13247651956698703
+Batch_size : 2579
+Neurons : 53.0
+learning_rate : 0.2700804226362154
+Activation : selu
+Layers : 1.0
+Validation loss : 27.132570266723633
+AUC : 69.1226%
+DSC : 2.0695%
+MCC : 2.6284%
+H val : 10.2100%
+H measure : 10.6451%
+Alpha : 119.4514638706299
+Dropout : 0.42056800024890684
+Batch_size : 756
+Neurons : 70.0
+learning_rate : 0.44827052739211026
+Activation : gelu
+Layers : 2.0
+Validation loss : 411.8321533203125
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 22.220836625553297
+Dropout : 0.28657926230844977
+Batch_size : 37
+Neurons : 46.0
+learning_rate : 0.3547695179620589
+Activation : PReLU
+Layers : 3.0
+Validation loss : 76.6103286743164
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 1.0347146801210516
+Dropout : 0.2371156719820534
+Batch_size : 131
+Neurons : 49.0
+learning_rate : 0.06549482577365057
+Activation : selu
+Layers : 1.0
+Validation loss : 3.567380666732788
+AUC : 38.8113%
+DSC : 0.0000%
+MCC : -0.0000%
+H val : 0.0032%
+H measure : 0.1109%
+Alpha : 35.095694911303575
+Dropout : 0.45387272808392104
+Batch_size : 1323
+Neurons : 75.0
+learning_rate : 0.17341352554348735
+Activation : gelu
+Layers : 2.0
+Validation loss : 120.99861907958984
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 95.51541175523525
+Dropout : 0.3495514224831185
+Batch_size : 2000
+Neurons : 65.0
+learning_rate : 0.000187430619344231
+Activation : selu
+Layers : 5.0
+Validation loss : 30.175107955932617
+AUC : 74.1439%
+DSC : 2.0222%
+MCC : 3.3606%
+H val : 21.2975%
+H measure : 17.3446%
+Alpha : 136.67926775774686
+Dropout : 0.3532101937678266
+Batch_size : 1985
+Neurons : 65.0
+learning_rate : 0.23194289771299684
+Activation : selu
+Layers : 3.0
+Validation loss : 471.2264709472656
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 108.01799148070499
+Dropout : 0.20691299331185262
+Batch_size : 101
+Neurons : 71.0
+learning_rate : 0.1192893246311223
+Activation : selu
+Layers : 1.0
+Validation loss : 372.411376953125
+AUC : 49.8749%
+DSC : 0.0000%
+MCC : -0.0000%
+H val : 0.0939%
+H measure : 0.0000%
+Alpha : 94.28145682279872
+Dropout : 0.26102132228968267
+Batch_size : 3308
+Neurons : 57.0
+learning_rate : 0.00024332777947723715
+Activation : selu
+Layers : 5.0
+Validation loss : 29.35695457458496
+AUC : 74.9672%
+DSC : 1.9988%
+MCC : 3.3296%
+H val : 21.6752%
+H measure : 18.6872%
+Alpha : 94.38457749384261
+Dropout : 0.26076666949321664
+Batch_size : 3201
+Neurons : 60.0
+learning_rate : 0.040876448193173265
+Activation : selu
+Layers : 5.0
+Validation loss : 34.818214416503906
+AUC : 62.1964%
+DSC : 1.1940%
+MCC : 0.0000%
+H val : 6.5939%
+H measure : 5.3268%
+Alpha : 74.05678353491805
+Dropout : 0.16871326599822029
+Batch_size : 7932
+Neurons : 57.0
+learning_rate : 0.15109527907318399
+Activation : selu
+Layers : 3.0
+Validation loss : 255.32492065429688
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 126.2907167016435
+Dropout : 0.40236396284988335
+Batch_size : 1675
+Neurons : 65.0
+learning_rate : 0.000578913411662639
+Activation : selu
+Layers : 5.0
+Validation loss : 34.77507781982422
+AUC : 74.8078%
+DSC : 1.9210%
+MCC : 3.3998%
+H val : 20.8846%
+H measure : 18.5987%
+Alpha : 104.29483558731539
+Dropout : 0.3631486040640387
+Batch_size : 598
+Neurons : 68.0
+learning_rate : 0.098822683765993
+Activation : selu
+Layers : 3.0
+Validation loss : 359.57537841796875
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 90.64918487479848
+Dropout : 0.33619138098294465
+Batch_size : 2298
+Neurons : 61.0
+learning_rate : 0.22759564661569273
+Activation : selu
+Layers : 5.0
+Validation loss : 312.5302429199219
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 113.8336049814782
+Dropout : 0.2880167309106601
+Batch_size : 5560
+Neurons : 58.0
+learning_rate : 0.3505102785259239
+Activation : selu
+Layers : 3.0
+Validation loss : 392.4626159667969
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 67.5757984444705
+Dropout : 0.13734156378587523
+Batch_size : 1070
+Neurons : 63.0
+learning_rate : 0.03587423262055323
+Activation : selu
+Layers : 5.0
+Validation loss : 28.794815063476562
+AUC : 49.6675%
+DSC : 1.1862%
+MCC : 0.0000%
+H val : 0.1191%
+H measure : 0.3437%
+Alpha : 147.84746031321515
+Dropout : 0.2130470992788723
+Batch_size : 764
+Neurons : 76.0
+learning_rate : 0.2816043199728494
+Activation : selu
+Layers : 3.0
+Validation loss : 509.7317199707031
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 80.35088245851902
+Dropout : 0.24834478705908974
+Batch_size : 3437
+Neurons : 67.0
+learning_rate : 0.15679939532174345
+Activation : selu
+Layers : 2.0
+Validation loss : 277.0246276855469
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 57.47796455275214
+Dropout : 0.30213279904725765
+Batch_size : 326
+Neurons : 72.0
+learning_rate : 0.3947783952488801
+Activation : selu
+Layers : 3.0
+Validation loss : 198.16622924804688
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 100.46700798338044
+Dropout : 0.4431691958100967
+Batch_size : 473
+Neurons : 55.0
+learning_rate : 0.7458824720841245
+Activation : selu
+Layers : 5.0
+Validation loss : 346.3796081542969
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 89.12633036779357
+Dropout : 0.47965070708542223
+Batch_size : 1514
+Neurons : 51.0
+learning_rate : 0.9221392409330732
+Activation : selu
+Layers : 2.0
+Validation loss : 307.27874755859375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 112.54642634355811
+Dropout : 0.3723755492368507
+Batch_size : 5137
+Neurons : 61.0
+learning_rate : 0.6620015701541058
+Activation : selu
+Layers : 3.0
+Validation loss : 388.0242614746094
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 138.4895455102914
+Dropout : 0.40357253341191235
+Batch_size : 7936
+Neurons : 56.0
+learning_rate : 0.32018203496971753
+Activation : PReLU
+Layers : 5.0
+Validation loss : 477.468505859375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 129.3880299144039
+Dropout : 0.33053396102474497
+Batch_size : 183
+Neurons : 64.0
+learning_rate : 0.5682645043160558
+Activation : selu
+Layers : 5.0
+Validation loss : 446.09027099609375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 170.766285485837
+Dropout : 0.49980184614405665
+Batch_size : 2580
+Neurons : 53.0
+learning_rate : 0.4763785526629201
+Activation : selu
+Layers : 3.0
+Validation loss : 588.7496337890625
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 119.54871282630819
+Dropout : 0.2757753335338458
+Batch_size : 2025
+Neurons : 69.0
+learning_rate : 0.9970118930189906
+Activation : PReLU
+Layers : 2.0
+Validation loss : 412.1668701171875
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 156.09751032524883
+Dropout : 0.30549775676508883
+Batch_size : 3896
+Neurons : 66.0
+learning_rate : 0.8170368481304762
+Activation : selu
+Layers : 5.0
+Validation loss : 538.1760864257812
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 67.79902318885678
+Dropout : 0.17866820117732984
+Batch_size : 1252
+Neurons : 73.0
+learning_rate : 0.20563244000120287
+Activation : selu
+Layers : 3.0
+Validation loss : 233.75009155273438
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 79.04029225357695
+Dropout : 0.152039170452948
+Batch_size : 880
+Neurons : 62.0
+learning_rate : 0.09886418753224216
+Activation : selu
+Layers : 2.0
+Validation loss : 272.5060729980469
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 47.41396524988862
+Dropout : 0.12089794599543832
+Batch_size : 366
+Neurons : 58.0
+learning_rate : 0.0003189923541932837
+Activation : PReLU
+Layers : 1.0
+Validation loss : 20.406116485595703
+AUC : 72.8234%
+DSC : 1.9014%
+MCC : 2.3127%
+H val : 18.3617%
+H measure : 16.7419%
+Alpha : 60.37582973981988
+Dropout : 0.07548108155032343
+Batch_size : 699
+Neurons : 78.0
+learning_rate : 0.25127331082297016
+Activation : selu
+Layers : 5.0
+Validation loss : 208.1565704345703
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 141.99735336298176
+Dropout : 0.0015243731014273898
+Batch_size : 6927
+Neurons : 50.0
+learning_rate : 0.44209386692874436
+Activation : selu
+Layers : 3.0
+Validation loss : 506.6490478515625
+AUC : 50.0000%
+DSC : 1.2039%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 87.08730662122129
+Dropout : 0.2182744782325275
+Batch_size : 2883
+Neurons : 41.0
+learning_rate : 0.050062404163245096
+Activation : PReLU
+Layers : 1.0
+Validation loss : 29.62912368774414
+AUC : 74.3137%
+DSC : 2.0039%
+MCC : 3.5822%
+H val : 19.9342%
+H measure : 18.3282%
+Alpha : 100.11523167536357
+Dropout : 0.24924480509537406
+Batch_size : 62
+Neurons : 45.0
+learning_rate : 0.09660609178282072
+Activation : selu
+Layers : 2.0
+Validation loss : 345.1654357910156
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 119.54839431759999
+Dropout : 0.1944713403278757
+Batch_size : 4901
+Neurons : 54.0
+learning_rate : 0.5070678116824645
+Activation : selu
+Layers : 5.0
+Validation loss : 412.1663818359375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 48.60074465017116
+Dropout : 0.38571937204726187
+Batch_size : 3836
+Neurons : 47.0
+learning_rate : 0.019261261093141913
+Activation : PReLU
+Layers : 3.0
+Validation loss : 21.46617317199707
+AUC : 71.0741%
+DSC : 1.6940%
+MCC : 1.7214%
+H val : 14.2313%
+H measure : 13.7290%
+Alpha : 39.29254449354031
+Dropout : 0.35658273454115846
+Batch_size : 1010
+Neurons : 60.0
+learning_rate : 0.601956215471364
+Activation : selu
+Layers : 2.0
+Validation loss : 135.46853637695312
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 27.543281447174607
+Dropout : 0.4377913344244315
+Batch_size : 243
+Neurons : 52.0
+learning_rate : 0.1328160370395566
+Activation : selu
+Layers : 1.0
+Validation loss : 94.96060180664062
+AUC : 60.1184%
+DSC : 0.0000%
+MCC : 0.0000%
+H val : 3.8798%
+H measure : 4.7670%
+Alpha : 131.5652524455963
+Dropout : 0.4667711997863934
+Batch_size : 169
+Neurons : 57.0
+learning_rate : 0.17646107651293147
+Activation : selu
+Layers : 3.0
+Validation loss : 453.5962219238281
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 110.1986509464001
+Dropout : 0.02044355057856198
+Batch_size : 558
+Neurons : 44.0
+learning_rate : 0.38298155404977974
+Activation : PReLU
+Layers : 5.0
+Validation loss : 379.9298095703125
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 92.7679820344467
+Dropout : 0.41057210033352654
+Batch_size : 95
+Neurons : 49.0
+learning_rate : 0.3319657571158495
+Activation : selu
+Layers : 5.0
+Validation loss : 319.835693359375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 164.19721414921196
+Dropout : 0.2748709120255298
+Batch_size : 1811
+Neurons : 68.0
+learning_rate : 0.2898422378260551
+Activation : selu
+Layers : 1.0
+Validation loss : 566.1000366210938
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 76.97758811014158
+Dropout : 0.32486646704452615
+Batch_size : 2253
+Neurons : 64.0
+learning_rate : 0.8659471408953363
+Activation : gelu
+Layers : 2.0
+Validation loss : 265.39434814453125
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 69.7975759764429
+Dropout : 0.23644065165143985
+Batch_size : 1472
+Neurons : 59.0
+learning_rate : 0.5388161567380062
+Activation : selu
+Layers : 3.0
+Validation loss : 240.63992309570312
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 84.21777037374977
+Dropout : 0.34286310514704205
+Batch_size : 6846
+Neurons : 61.0
+learning_rate : 0.2541889761875747
+Activation : PReLU
+Layers : 3.0
+Validation loss : 290.3573303222656
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 154.16484815981536
+Dropout : 0.37169657725713207
+Batch_size : 21
+Neurons : 55.0
+learning_rate : 0.21449894158259034
+Activation : selu
+Layers : 5.0
+Validation loss : 531.5109252929688
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 116.04531895571456
+Dropout : 0.31160808578828647
+Batch_size : 475
+Neurons : 70.0
+learning_rate : 0.4390028062259937
+Activation : gelu
+Layers : 1.0
+Validation loss : 400.0881042480469
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 124.31206988113001
+Dropout : 0.16431731486990558
+Batch_size : 308
+Neurons : 76.0
+learning_rate : 0.019875876997950428
+Activation : selu
+Layers : 2.0
+Validation loss : 36.455379486083984
+AUC : 70.0570%
+DSC : 1.5498%
+MCC : 1.9433%
+H val : 12.7621%
+H measure : 12.2294%
+Alpha : 99.53620556114302
+Dropout : 0.258655940227937
+Batch_size : 857
+Neurons : 66.0
+learning_rate : 0.7792052049784566
+Activation : selu
+Layers : 2.0
+Validation loss : 343.16998291015625
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 105.09031982212629
+Dropout : 0.2941788566222252
+Batch_size : 41
+Neurons : 72.0
+learning_rate : 0.6935602737747912
+Activation : PReLU
+Layers : 3.0
+Validation loss : 506.6490478515625
+AUC : 50.0000%
+DSC : 1.2039%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 16.08300842407347
+Dropout : 0.22350902870835596
+Batch_size : 1144
+Neurons : 56.0
+learning_rate : 0.06207428641175423
+Activation : selu
+Layers : 5.0
+Validation loss : 55.44903564453125
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 52.14064244680447
+Dropout : 0.20173517769862612
+Batch_size : 3407
+Neurons : 62.0
+learning_rate : 0.17557831259594958
+Activation : gelu
+Layers : 1.0
+Validation loss : 22.90852165222168
+AUC : 68.5219%
+DSC : 1.5846%
+MCC : 1.3503%
+H val : 11.4535%
+H measure : 10.7403%
+Alpha : 62.677475045672445
+Dropout : 0.4894456475338578
+Batch_size : 406
+Neurons : 51.0
+learning_rate : 0.08628658136043618
+Activation : selu
+Layers : 3.0
+Validation loss : 216.0917205810547
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 6.710594662688507
+Dropout : 0.18657934467164297
+Batch_size : 2804
+Neurons : 53.0
+learning_rate : 0.13013337493341476
+Activation : selu
+Layers : 5.0
+Validation loss : 23.136043548583984
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 71.36645751636519
+Dropout : 0.39265047453869156
+Batch_size : 5796
+Neurons : 58.0
+learning_rate : 0.9683434043518944
+Activation : gelu
+Layers : 3.0
+Validation loss : 246.04930114746094
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 42.308273816427175
+Dropout : 0.09124036683296849
+Batch_size : 4275
+Neurons : 49.0
+learning_rate : 0.8934554957919314
+Activation : PReLU
+Layers : 2.0
+Validation loss : 145.8654327392578
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 149.90652025961674
+Dropout : 0.2759435417431664
+Batch_size : 650
+Neurons : 63.0
+learning_rate : 0.3370952878767088
+Activation : selu
+Layers : 5.0
+Validation loss : 516.8307495117188
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 140.712757030428
+Dropout : 0.12394008020861624
+Batch_size : 1657
+Neurons : 74.0
+learning_rate : 0.8310802727827424
+Activation : selu
+Layers : 3.0
+Validation loss : 485.1335754394531
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 57.70800191473452
+Dropout : 0.14726634705770952
+Batch_size : 1328
+Neurons : 47.0
+learning_rate : 0.4163828334628761
+Activation : selu
+Layers : 1.0
+Validation loss : 198.95877075195312
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 96.50576678292265
+Dropout : 0.05774800516637038
+Batch_size : 2213
+Neurons : 67.0
+learning_rate : 0.37388375984430555
+Activation : gelu
+Layers : 5.0
+Validation loss : 332.72210693359375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 134.863819914004
+Dropout : 0.43526582978677253
+Batch_size : 256
+Neurons : 60.0
+learning_rate : 0.6441551747393636
+Activation : PReLU
+Layers : 2.0
+Validation loss : 464.9684753417969
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 145.6988958076629
+Dropout : 0.4590902108160646
+Batch_size : 29
+Neurons : 64.0
+learning_rate : 0.11329218373955019
+Activation : selu
+Layers : 1.0
+Validation loss : 502.32275390625
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 108.1479843038391
+Dropout : 0.415500854182164
+Batch_size : 7435
+Neurons : 52.0
+learning_rate : 0.15358045395919612
+Activation : selu
+Layers : 5.0
+Validation loss : 372.85931396484375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 127.50554852197322
+Dropout : 0.36323421001802325
+Batch_size : 5067
+Neurons : 46.0
+learning_rate : 0.4614448662534455
+Activation : selu
+Layers : 2.0
+Validation loss : 439.5995788574219
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 122.56362620168014
+Dropout : 0.24166387917242765
+Batch_size : 16
+Neurons : 69.0
+learning_rate : 0.30063630343977615
+Activation : gelu
+Layers : 3.0
+Validation loss : 422.5620422363281
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 87.6709883327473
+Dropout : 0.17383035200097113
+Batch_size : 1920
+Neurons : 54.0
+learning_rate : 0.26881930354845573
+Activation : PReLU
+Layers : 3.0
+Validation loss : 302.2624816894531
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 81.80460328100928
+Dropout : 0.3399306387127345
+Batch_size : 142
+Neurons : 57.0
+learning_rate : 0.23742519000385284
+Activation : selu
+Layers : 5.0
+Validation loss : 282.0361328125
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 28.147147811113868
+Dropout : 0.29596744593828295
+Batch_size : 911
+Neurons : 66.0
+learning_rate : 0.49258516017255666
+Activation : selu
+Layers : 3.0
+Validation loss : 97.04268646240234
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 91.92414270321434
+Dropout : 0.3815803347592744
+Batch_size : 774
+Neurons : 48.0
+learning_rate : 0.04967610751974542
+Activation : selu
+Layers : 1.0
+Validation loss : 30.80982780456543
+AUC : 71.8507%
+DSC : 1.8443%
+MCC : 2.7640%
+H val : 16.7071%
+H measure : 14.7209%
+Alpha : 160.63903733093775
+Dropout : 0.2575096308081293
+Batch_size : 3171
+Neurons : 71.0
+learning_rate : 0.01710529997009534
+Activation : gelu
+Layers : 5.0
+Validation loss : 43.951622009277344
+AUC : 63.1596%
+DSC : 1.2997%
+MCC : 0.6343%
+H val : 6.1136%
+H measure : 6.0156%
+Alpha : 76.89160545793649
+Dropout : 0.328193610105842
+Batch_size : 2527
+Neurons : 42.0
+learning_rate : 0.19080891794242236
+Activation : PReLU
+Layers : 2.0
+Validation loss : 265.0977783203125
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 102.58355199125162
+Dropout : 0.3141227806239927
+Batch_size : 511
+Neurons : 77.0
+learning_rate : 0.7346959558353451
+Activation : selu
+Layers : 2.0
+Validation loss : 353.67510986328125
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 65.22736567241188
+Dropout : 0.2107152259085147
+Batch_size : 186
+Neurons : 59.0
+learning_rate : 0.5315524903178306
+Activation : selu
+Layers : 3.0
+Validation loss : 224.88385009765625
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 116.02368519750493
+Dropout : 0.10825947004761247
+Batch_size : 6236
+Neurons : 62.0
+learning_rate : 0.5698509962557985
+Activation : selu
+Layers : 5.0
+Validation loss : 400.01416015625
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 36.98238237877111
+Dropout : 0.39817248087078716
+Batch_size : 4194
+Neurons : 50.0
+learning_rate : 0.07938155035003591
+Activation : gelu
+Layers : 1.0
+Validation loss : 17.777633666992188
+AUC : 73.0627%
+DSC : 1.8741%
+MCC : 2.1600%
+H val : 17.4090%
+H measure : 15.8108%
+Alpha : 22.277317310074608
+Dropout : 0.44768078170966474
+Batch_size : 339
+Neurons : 73.0
+learning_rate : 0.6009267258467365
+Activation : selu
+Layers : 5.0
+Validation loss : 76.80526733398438
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 131.2971194962764
+Dropout : 0.42847742305288106
+Batch_size : 1601
+Neurons : 69.0
+learning_rate : 3.099866631049459e-05
+Activation : PReLU
+Layers : 3.0
+Validation loss : 36.87675476074219
+AUC : 72.4181%
+DSC : 1.6303%
+MCC : 2.1765%
+H val : 16.3458%
+H measure : 15.6895%
+Alpha : 50.65418425365695
+Dropout : 0.34983813897764576
+Batch_size : 69
+Neurons : 55.0
+learning_rate : 0.39718205715260835
+Activation : selu
+Layers : 1.0
+Validation loss : 174.63980102539062
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 56.16891772100276
+Dropout : 0.2807981639416254
+Batch_size : 115
+Neurons : 44.0
+learning_rate : 0.21840464772398738
+Activation : selu
+Layers : 5.0
+Validation loss : 193.65345764160156
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 44.43229005836498
+Dropout : 0.2672019858189659
+Batch_size : 3600
+Neurons : 58.0
+learning_rate : 0.7826713313238473
+Activation : gelu
+Layers : 2.0
+Validation loss : 153.1881866455078
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 167.25977032115003
+Dropout : 0.19071809262711262
+Batch_size : 1065
+Neurons : 53.0
+learning_rate : 0.14106127937745316
+Activation : selu
+Layers : 3.0
+Validation loss : 576.6602172851562
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 110.93828667395725
+Dropout : 0.22804224746893104
+Batch_size : 1337
+Neurons : 65.0
+learning_rate : 0.10975315315247049
+Activation : PReLU
+Layers : 2.0
+Validation loss : 38.45836639404297
+AUC : 66.6192%
+DSC : 1.7365%
+MCC : 2.4907%
+H val : 10.0252%
+H measure : 8.9096%
+Alpha : 84.98678344403572
+Dropout : 0.48734316774792374
+Batch_size : 604
+Neurons : 56.0
+learning_rate : 0.03621464943383337
+Activation : selu
+Layers : 5.0
+Validation loss : 293.0074768066406
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 31.214234237160824
+Dropout : 0.1563601937232716
+Batch_size : 410
+Neurons : 61.0
+learning_rate : 0.6840752354757383
+Activation : selu
+Layers : 3.0
+Validation loss : 107.6170883178711
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 152.05662006494907
+Dropout : 0.30505465524192443
+Batch_size : 89
+Neurons : 40.0
+learning_rate : 0.16554925997151282
+Activation : gelu
+Layers : 1.0
+Validation loss : 524.2446899414062
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 72.4356658273797
+Dropout : 0.03656206464978057
+Batch_size : 4736
+Neurons : 75.0
+learning_rate : 0.35387113992397434
+Activation : selu
+Layers : 3.0
+Validation loss : 249.73602294921875
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 60.76451643907357
+Dropout : 0.3639800066563007
+Batch_size : 2122
+Neurons : 60.0
+learning_rate : 0.31754436837541505
+Activation : PReLU
+Layers : 5.0
+Validation loss : 209.49676513671875
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 95.08075539511901
+Dropout : 0.06698373910755942
+Batch_size : 7938
+Neurons : 68.0
+learning_rate : 0.19296044116790434
+Activation : selu
+Layers : 2.0
+Validation loss : 327.8090515136719
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 121.67025645571532
+Dropout : 0.14258145196183827
+Batch_size : 2812
+Neurons : 51.0
+learning_rate : 0.06271110199345731
+Activation : selu
+Layers : 1.0
+Validation loss : 36.041160583496094
+AUC : 74.8435%
+DSC : 1.8694%
+MCC : 3.6164%
+H val : 18.3965%
+H measure : 18.8786%
+Alpha : 115.86514041006015
+Dropout : 0.40955190120420554
+Batch_size : 5523
+Neurons : 63.0
+learning_rate : 0.2759796225172373
+Activation : gelu
+Layers : 3.0
+Validation loss : 399.46734619140625
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 107.40442658431532
+Dropout : 0.3802730433329019
+Batch_size : 219
+Neurons : 71.0
+learning_rate : 0.2415900400118753
+Activation : selu
+Layers : 5.0
+Validation loss : 370.29705810546875
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 138.07161796587232
+Dropout : 0.24426592865245997
+Batch_size : 50
+Neurons : 49.0
+learning_rate : 0.9365377160240222
+Activation : PReLU
+Layers : 2.0
+Validation loss : 476.0262756347656
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 77.16109452286364
+Dropout : 0.023281066481705748
+Batch_size : 699
+Neurons : 52.0
+learning_rate : 0.4290065937300979
+Activation : selu
+Layers : 3.0
+Validation loss : 506.6490478515625
+AUC : 50.0000%
+DSC : 1.2039%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 98.74552165628083
+Dropout : 0.4701817791537416
+Batch_size : 1187
+Neurons : 59.0
+learning_rate : 0.8946189852841693
+Activation : selu
+Layers : 5.0
+Validation loss : 431.1959533691406
+AUC : 50.4308%
+DSC : 1.2167%
+MCC : 0.1344%
+H val : 0.0004%
+H measure : 0.0062%
+Alpha : 66.62649925708564
+Dropout : 0.0943983099148698
+Batch_size : 289
+Neurons : 57.0
+learning_rate : 0.4621139251790071
+Activation : gelu
+Layers : 1.0
+Validation loss : 229.7071990966797
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 159.14718037544054
+Dropout : 0.3195829747922326
+Batch_size : 1804
+Neurons : 67.0
+learning_rate : 0.0001062590375507656
+Activation : selu
+Layers : 2.0
+Validation loss : 39.06121063232422
+AUC : 74.1040%
+DSC : 1.7007%
+MCC : 2.7361%
+H val : 19.5632%
+H measure : 17.4149%
+Alpha : 89.79067696800439
+Dropout : 0.20221067454519692
+Batch_size : 2421
+Neurons : 54.0
+learning_rate : 0.978728330436172
+Activation : PReLU
+Layers : 3.0
+Validation loss : 309.5696105957031
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 10.085439036262443
+Dropout : 0.1293081921719318
+Batch_size : 810
+Neurons : 47.0
+learning_rate : 0.5517485915135966
+Activation : selu
+Layers : 5.0
+Validation loss : 34.7714729309082
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 144.62116841916472
+Dropout : 0.3340886139669081
+Batch_size : 978
+Neurons : 41.0
+learning_rate : 0.6234227475265749
+Activation : selu
+Layers : 3.0
+Validation loss : 498.60894775390625
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 102.69723115758819
+Dropout : 0.21848914931343735
+Batch_size : 1440
+Neurons : 46.0
+learning_rate : 0.0891737018284187
+Activation : gelu
+Layers : 1.0
+Validation loss : 33.04780578613281
+AUC : 70.9549%
+DSC : 1.6743%
+MCC : 2.3348%
+H val : 15.8157%
+H measure : 14.2988%
+Alpha : 18.50267333584931
+Dropout : 0.11375135017952989
+Batch_size : 6815
+Neurons : 64.0
+learning_rate : 0.02353263452487955
+Activation : selu
+Layers : 2.0
+Validation loss : 11.058382987976074
+AUC : 73.3515%
+DSC : 2.0769%
+MCC : 2.0128%
+H val : 20.1765%
+H measure : 16.5705%
+Alpha : 127.98216911651443
+Dropout : 0.2670717321675636
+Batch_size : 3923
+Neurons : 78.0
+learning_rate : 0.5125524186159253
+Activation : PReLU
+Layers : 5.0
+Validation loss : 441.2434997558594
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 81.32306608331189
+Dropout : 0.350298535042677
+Batch_size : 3133
+Neurons : 61.0
+learning_rate : 0.2970143904742373
+Activation : selu
+Layers : 3.0
+Validation loss : 280.3762512207031
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 4.980625834510306
+Dropout : 0.2880112518266816
+Batch_size : 161
+Neurons : 66.0
+learning_rate : 0.12705283922930305
+Activation : selu
+Layers : 5.0
+Validation loss : 17.17161750793457
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 134.25059468342465
+Dropout : 0.2541933994692647
+Batch_size : 460
+Neurons : 73.0
+learning_rate : 0.33554528080891527
+Activation : gelu
+Layers : 1.0
+Validation loss : 462.8548889160156
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 69.28174955433929
+Dropout : 0.16548597067359225
+Batch_size : 368
+Neurons : 48.0
+learning_rate : 0.8398109389947584
+Activation : selu
+Layers : 3.0
+Validation loss : 238.8614044189453
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 39.9441562091662
+Dropout : 0.23403640820764837
+Batch_size : 541
+Neurons : 45.0
+learning_rate : 0.26078738166857485
+Activation : PReLU
+Layers : 2.0
+Validation loss : 137.71487426757812
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 113.17146974651034
+Dropout : 0.39104425334266363
+Batch_size : 5429
+Neurons : 70.0
+learning_rate : 0.7162069186490466
+Activation : selu
+Layers : 5.0
+Validation loss : 390.1785583496094
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 45.82532294395092
+Dropout : 0.45731963721246444
+Batch_size : 119
+Neurons : 50.0
+learning_rate : 0.20849805928325044
+Activation : selu
+Layers : 5.0
+Validation loss : 157.9909210205078
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 74.64227551427692
+Dropout : 0.17995731214087732
+Batch_size : 676
+Neurons : 55.0
+learning_rate : 0.05152614085864593
+Activation : gelu
+Layers : 2.0
+Validation loss : 29.690433502197266
+AUC : 65.3496%
+DSC : 1.5588%
+MCC : 1.5172%
+H val : 9.5628%
+H measure : 7.4340%
+Alpha : 93.1169634322232
+Dropout : 0.4238636361923417
+Batch_size : 32
+Neurons : 56.0
+learning_rate : 0.14874431155575166
+Activation : selu
+Layers : 1.0
+Validation loss : 321.0389099121094
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 118.71085308891959
+Dropout : 0.29781118505786364
+Batch_size : 19
+Neurons : 62.0
+learning_rate : 0.399321199082085
+Activation : PReLU
+Layers : 3.0
+Validation loss : 409.27874755859375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 86.32741457062889
+Dropout : 0.3717071770134981
+Batch_size : 4523
+Neurons : 44.0
+learning_rate : 0.3724014677477743
+Activation : selu
+Layers : 3.0
+Validation loss : 297.6301574707031
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 62.950826955511054
+Dropout : 0.49949337471338373
+Batch_size : 1981
+Neurons : 76.0
+learning_rate : 0.18009599489547476
+Activation : selu
+Layers : 2.0
+Validation loss : 217.0342254638672
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 54.31831633824383
+Dropout : 0.08284975754578572
+Batch_size : 2669
+Neurons : 58.0
+learning_rate : 0.5903139979927192
+Activation : gelu
+Layers : 5.0
+Validation loss : 187.27200317382812
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 170.8997023693317
+Dropout : 0.04741114057461912
+Batch_size : 3492
+Neurons : 65.0
+learning_rate : 0.6615165448563601
+Activation : selu
+Layers : 1.0
+Validation loss : 589.2067260742188
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 141.24289997242624
+Dropout : 0.30977215941871256
+Batch_size : 6166
+Neurons : 72.0
+learning_rate : 0.10720200214186215
+Activation : PReLU
+Layers : 3.0
+Validation loss : 486.960693359375
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 106.81260297318215
+Dropout : 0.48144300064210455
+Batch_size : 7956
+Neurons : 63.0
+learning_rate : 0.07440406352810003
+Activation : selu
+Layers : 5.0
+Validation loss : 368.2567138671875
+AUC : 45.0004%
+DSC : 0.0000%
+MCC : -0.0000%
+H val : 0.0116%
+H measure : 0.1595%
+Alpha : 124.97251938636546
+Dropout : 0.35888528473956316
+Batch_size : 1649
+Neurons : 54.0
+learning_rate : 0.48598470900180724
+Activation : selu
+Layers : 3.0
+Validation loss : 430.8652038574219
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 59.15008818650643
+Dropout : 0.3250450527816806
+Batch_size : 1123
+Neurons : 57.0
+learning_rate : 0.2270572459942754
+Activation : gelu
+Layers : 2.0
+Validation loss : 203.93150329589844
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 49.73578958570244
+Dropout : 0.43491966716413094
+Batch_size : 242
+Neurons : 43.0
+learning_rate : 0.7975787073249468
+Activation : selu
+Layers : 1.0
+Validation loss : 171.47312927246094
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 97.45525649071976
+Dropout : 0.4029792690212397
+Batch_size : 2314
+Neurons : 51.0
+learning_rate : 0.755296913733423
+Activation : PReLU
+Layers : 5.0
+Validation loss : 352.820068359375
+AUC : 49.0055%
+DSC : 0.9000%
+MCC : -0.5277%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 165.24327355494256
+Dropout : 0.28100057860455147
+Batch_size : 934
+Neurons : 67.0
+learning_rate : 0.013738840444878251
+Activation : selu
+Layers : 3.0
+Validation loss : 43.10572814941406
+AUC : 71.4712%
+DSC : 1.4169%
+MCC : 1.5948%
+H val : 16.3164%
+H measure : 13.3360%
+Alpha : 25.128237527148613
+Dropout : 0.34274739675881927
+Batch_size : 1305
+Neurons : 60.0
+learning_rate : 0.037713012835744526
+Activation : selu
+Layers : 2.0
+Validation loss : 14.607948303222656
+AUC : 67.9862%
+DSC : 1.5829%
+MCC : 1.0120%
+H val : 9.9850%
+H measure : 10.0948%
+Alpha : 79.34569595477103
+Dropout : 0.00042018376554942005
+Batch_size : 82
+Neurons : 53.0
+learning_rate : 0.16223897447185776
+Activation : gelu
+Layers : 5.0
+Validation loss : 273.5595397949219
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 110.16831406880016
+Dropout : 0.4470429332794851
+Batch_size : 3022
+Neurons : 52.0
+learning_rate : 0.2841518094870495
+Activation : selu
+Layers : 3.0
+Validation loss : 379.8269958496094
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 102.36889213231028
+Dropout : 0.21039881074603645
+Batch_size : 60
+Neurons : 75.0
+learning_rate : 0.31466225194039277
+Activation : PReLU
+Layers : 1.0
+Validation loss : 352.9360046386719
+AUC : 50.0000%
+DSC : 0.0000%
+MCC : nan%
+H val : 0.0000%
+H measure : 0.0000%
+Alpha : 147.76762700164636
+Dropout : 0.1947426878151429
+Batch_size : 198
+Neurons : 69.0
+learning_rate : 0.0001528152472946073
+Activation : selu
+Layers : 5.0
+Validation loss : 42.67204284667969
+AUC : 72.8977%
+DSC : 1.9602%
+MCC : 2.9211%
+H val : 18.7501%
+H measure : 15.7989%
+Runtime :  2:12:08.634187

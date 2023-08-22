@@ -1,0 +1,540 @@
+Run number : 1
+Train DR:  0.00634
+Validate DR:  0.00622
+Test oos DR:  0.001895907736689279
+Test oot DR:  0.0007055883254806409
+IR:  157.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.4528%
+AUC oot M6: 62.8770%
+DSC oos M6: 1.5821%
+DSC oot M6: 1.8325%
+MCC oos M6: 0.9280%
+MCC oot M6: 0.9010%
+H val M6: 7.5394%
+H measure oos M6: 7.8892%
+H measure oot M6: 5.4878%
+Runtime M6:  114.03823000000001
+Run number : 2
+Train DR:  0.00592
+Validate DR:  0.0066
+Test oos DR:  0.0018266220718933252
+Test oot DR:  0.0007814225847612705
+IR:  168.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.0276%
+AUC oot M6: 62.2649%
+DSC oos M6: 1.3721%
+DSC oot M6: 1.6389%
+MCC oos M6: 0.7478%
+MCC oot M6: 0.6643%
+H val M6: 6.1637%
+H measure oos M6: 6.6227%
+H measure oot M6: 4.4595%
+Runtime M6:  110.029021
+Run number : 3
+Train DR:  0.00648
+Validate DR:  0.00562
+Test oos DR:  0.002059673853479715
+Test oot DR:  0.000735262600851322
+IR:  153.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.7321%
+AUC oot M6: 60.2625%
+DSC oos M6: 1.4488%
+DSC oot M6: 1.7803%
+MCC oos M6: 0.7482%
+MCC oot M6: 0.8295%
+H val M6: 6.7937%
+H measure oos M6: 6.8948%
+H measure oot M6: 3.9180%
+Runtime M6:  96.57083899999999
+Run number : 4
+Train DR:  0.00636
+Validate DR:  0.00608
+Test oos DR:  0.001889609039889647
+Test oot DR:  0.0006412940621774983
+IR:  156.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.9670%
+AUC oot M6: 63.6918%
+DSC oos M6: 1.5160%
+DSC oot M6: 1.7836%
+MCC oos M6: 0.8558%
+MCC oot M6: 0.9304%
+H val M6: 8.0763%
+H measure oos M6: 7.9286%
+H measure oot M6: 5.8256%
+Runtime M6:  92.853311
+Run number : 5
+Train DR:  0.00636
+Validate DR:  0.00578
+Test oos DR:  0.0020785699438786117
+Test oot DR:  0.0006808597626717399
+IR:  156.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 62.9897%
+AUC oot M6: 67.1595%
+DSC oos M6: 1.4236%
+DSC oot M6: 2.1097%
+MCC oos M6: 0.7227%
+MCC oot M6: 1.2014%
+H val M6: 6.9282%
+H measure oos M6: 5.8032%
+H measure oot M6: 9.3023%
+Runtime M6:  94.36190500000001
+Run number : 6
+Train DR:  0.00658
+Validate DR:  0.00586
+Test oos DR:  0.0019651934014852327
+Test oot DR:  0.0007418568842670289
+IR:  151.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.8097%
+AUC oot M6: 64.0775%
+DSC oos M6: 1.8274%
+DSC oot M6: 2.0362%
+MCC oos M6: 1.1478%
+MCC oot M6: 1.0560%
+H val M6: 9.9914%
+H measure oos M6: 8.9213%
+H measure oot M6: 6.0828%
+Runtime M6:  114.183897
+Run number : 7
+Train DR:  0.00602
+Validate DR:  0.00608
+Test oos DR:  0.0019085051302885432
+Test oot DR:  0.0007088854671884943
+IR:  165.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 62.4770%
+AUC oot M6: 63.8718%
+DSC oos M6: 1.4664%
+DSC oot M6: 1.5015%
+MCC oos M6: 0.8135%
+MCC oot M6: 0.5966%
+H val M6: 6.7508%
+H measure oos M6: 5.4954%
+H measure oot M6: 5.5207%
+Runtime M6:  108.284581
+Run number : 8
+Train DR:  0.00534
+Validate DR:  0.00666
+Test oos DR:  0.001769933800696636
+Test oot DR:  0.0006841569043795933
+IR:  186.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.7992%
+AUC oot M6: 62.9301%
+DSC oos M6: 1.4660%
+DSC oot M6: 1.6722%
+MCC oos M6: 0.8761%
+MCC oot M6: 0.8149%
+H val M6: 6.3610%
+H measure oos M6: 7.8500%
+H measure oot M6: 5.1824%
+Runtime M6:  102.76522800000001
+Run number : 9
+Train DR:  0.00646
+Validate DR:  0.0055
+Test oos DR:  0.0019085051302885432
+Test oot DR:  0.0006792111918178131
+IR:  154.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 67.7737%
+AUC oot M6: 63.0189%
+DSC oos M6: 1.6725%
+DSC oot M6: 1.7632%
+MCC oos M6: 1.0211%
+MCC oot M6: 0.8647%
+H val M6: 5.6686%
+H measure oos M6: 10.7889%
+H measure oot M6: 6.0473%
+Runtime M6:  90.555812
+Run number : 10
+Train DR:  0.00614
+Validate DR:  0.0056
+Test oos DR:  0.0019022064334889113
+Test oot DR:  0.0006742654792560329
+IR:  162.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.4414%
+AUC oot M6: 62.2840%
+DSC oos M6: 1.3403%
+DSC oot M6: 1.7510%
+MCC oos M6: 0.6991%
+MCC oot M6: 0.8534%
+H val M6: 4.1961%
+H measure oos M6: 6.8793%
+H measure oot M6: 5.3225%
+Runtime M6:  95.124083
+Run number : 11
+Train DR:  0.00554
+Validate DR:  0.0065
+Test oos DR:  0.0017510377102977395
+Test oot DR:  0.0007121826088963477
+IR:  180.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 61.4500%
+AUC oot M6: 64.7970%
+DSC oos M6: 1.4580%
+DSC oot M6: 2.3463%
+MCC oos M6: 0.8656%
+MCC oot M6: 1.4640%
+H val M6: 6.8359%
+H measure oos M6: 5.2682%
+H measure oot M6: 7.3275%
+Runtime M6:  129.204311
+Run number : 12
+Train DR:  0.00616
+Validate DR:  0.00564
+Test oos DR:  0.001814024678294061
+Test oot DR:  0.0006808597626717399
+IR:  161.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 61.8612%
+AUC oot M6: 63.8340%
+DSC oos M6: 1.5230%
+DSC oot M6: 1.8824%
+MCC oos M6: 0.8930%
+MCC oot M6: 1.0084%
+H val M6: 5.4573%
+H measure oos M6: 5.7566%
+H measure oot M6: 6.3144%
+Runtime M6:  104.97259799999999
+Run number : 13
+Train DR:  0.0059
+Validate DR:  0.00612
+Test oos DR:  0.0018707129494907504
+Test oot DR:  0.0007072368963345675
+IR:  168.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 65.1853%
+AUC oot M6: 63.4336%
+DSC oos M6: 1.3832%
+DSC oot M6: 1.8619%
+MCC oos M6: 0.7393%
+MCC oot M6: 0.9527%
+H val M6: 7.9291%
+H measure oos M6: 8.1923%
+H measure oot M6: 5.7389%
+Runtime M6:  111.64391499999999
+Run number : 14
+Train DR:  0.00602
+Validate DR:  0.00622
+Test oos DR:  0.0018329207686929574
+Test oot DR:  0.0007253711757277616
+IR:  165.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 61.4407%
+AUC oot M6: 64.7759%
+DSC oos M6: 1.3327%
+DSC oot M6: 2.1831%
+MCC oos M6: 0.6911%
+MCC oot M6: 1.2594%
+H val M6: 8.8962%
+H measure oos M6: 5.3645%
+H measure oot M6: 7.0934%
+Runtime M6:  97.153345
+Run number : 15
+Train DR:  0.00616
+Validate DR:  0.0063
+Test oos DR:  0.0016691546519025213
+Test oot DR:  0.0007187768923120547
+IR:  161.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 59.9428%
+AUC oot M6: 62.4122%
+DSC oos M6: 1.0549%
+DSC oot M6: 1.7323%
+MCC oos M6: 0.4586%
+MCC oot M6: 0.8343%
+H val M6: 6.1105%
+H measure oos M6: 4.2028%
+H measure oot M6: 4.7259%
+Runtime M6:  99.159143
+Run number : 16
+Train DR:  0.00556
+Validate DR:  0.00628
+Test oos DR:  0.0017951285878951644
+Test oot DR:  0.0007022911837727874
+IR:  179.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.4627%
+AUC oot M6: 64.3949%
+DSC oos M6: 1.6214%
+DSC oot M6: 1.8572%
+MCC oos M6: 1.0179%
+MCC oot M6: 0.9744%
+H val M6: 6.4155%
+H measure oos M6: 7.9957%
+H measure oot M6: 6.5279%
+Runtime M6:  93.486867
+Run number : 17
+Train DR:  0.00578
+Validate DR:  0.00638
+Test oos DR:  0.0017636351038970038
+Test oot DR:  0.0007896654390309041
+IR:  172.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 65.0731%
+AUC oot M6: 61.6245%
+DSC oos M6: 1.4137%
+DSC oot M6: 1.6649%
+MCC oos M6: 0.8047%
+MCC oot M6: 0.7286%
+H val M6: 5.1804%
+H measure oos M6: 8.5453%
+H measure oot M6: 4.1382%
+Runtime M6:  111.189844
+Run number : 18
+Train DR:  0.00658
+Validate DR:  0.00574
+Test oos DR:  0.0019336999174870719
+Test oot DR:  0.0007204254631659814
+IR:  151.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.3032%
+AUC oot M6: 64.2413%
+DSC oos M6: 1.7007%
+DSC oot M6: 1.7744%
+MCC oos M6: 1.0234%
+MCC oot M6: 0.8225%
+H val M6: 5.3479%
+H measure oos M6: 7.1847%
+H measure oot M6: 6.5324%
+Runtime M6:  107.449695
+Run number : 19
+Train DR:  0.0061
+Validate DR:  0.00618
+Test oos DR:  0.0019148038270881754
+Test oot DR:  0.000753396880244516
+IR:  163.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.6252%
+AUC oot M6: 64.8185%
+DSC oos M6: 1.6487%
+DSC oot M6: 2.0860%
+MCC oos M6: 1.0048%
+MCC oot M6: 1.1456%
+H val M6: 8.7488%
+H measure oos M6: 8.5726%
+H measure oot M6: 6.7390%
+Runtime M6:  100.210761
+Run number : 20
+Train DR:  0.00616
+Validate DR:  0.00602
+Test oos DR:  0.0018329207686929574
+Test oot DR:  0.0006594283415706924
+IR:  161.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.3048%
+AUC oot M6: 59.8137%
+DSC oos M6: 1.7947%
+DSC oot M6: 1.3877%
+MCC oos M6: 1.1568%
+MCC oot M6: 0.5163%
+H val M6: 7.0286%
+H measure oos M6: 8.1494%
+H measure oot M6: 3.4663%
+Runtime M6:  101.003675
+Run number : 21
+Train DR:  0.00654
+Validate DR:  0.00568
+Test oos DR:  0.001732141619898843
+Test oot DR:  0.0007105340380424211
+IR:  152.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 60.8961%
+AUC oot M6: 65.0709%
+DSC oos M6: 1.1292%
+DSC oot M6: 1.9208%
+MCC oos M6: 0.5008%
+MCC oot M6: 0.9826%
+H val M6: 6.5264%
+H measure oos M6: 4.2298%
+H measure oot M6: 6.9835%
+Runtime M6:  89.717488
+Run number : 22
+Train DR:  0.00618
+Validate DR:  0.00616
+Test oos DR:  0.001895907736689279
+Test oot DR:  0.0006808597626717399
+IR:  161.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 65.3148%
+AUC oot M6: 65.0314%
+DSC oos M6: 1.7124%
+DSC oot M6: 1.8496%
+MCC oos M6: 1.0714%
+MCC oot M6: 0.9631%
+H val M6: 7.4601%
+H measure oos M6: 8.7079%
+H measure oot M6: 6.6791%
+Runtime M6:  107.391245
+Run number : 23
+Train DR:  0.00558
+Validate DR:  0.00636
+Test oos DR:  0.0018014272846947966
+Test oot DR:  0.0007682340179298566
+IR:  178.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 63.7768%
+AUC oot M6: 65.1764%
+DSC oos M6: 1.3423%
+DSC oot M6: 1.8893%
+MCC oos M6: 0.7477%
+MCC oot M6: 0.9608%
+H val M6: 6.7704%
+H measure oos M6: 6.5215%
+H measure oot M6: 6.8879%
+Runtime M6:  102.419298
+Run number : 24
+Train DR:  0.00638
+Validate DR:  0.00562
+Test oos DR:  0.0018770116462903826
+Test oot DR:  0.0007121826088963477
+IR:  156.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 61.7277%
+AUC oot M6: 62.3512%
+DSC oos M6: 1.5382%
+DSC oot M6: 1.5386%
+MCC oos M6: 0.8994%
+MCC oot M6: 0.6047%
+H val M6: 6.2728%
+H measure oos M6: 6.6919%
+H measure oot M6: 4.6247%
+Runtime M6:  103.795551
+Run number : 25
+Train DR:  0.00604
+Validate DR:  0.0059
+Test oos DR:  0.0017258429230992108
+Test oot DR:  0.0007204254631659814
+IR:  165.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 64.0186%
+AUC oot M6: 64.5401%
+DSC oos M6: 1.4906%
+DSC oot M6: 1.8213%
+MCC oos M6: 0.8794%
+MCC oot M6: 0.8887%
+H val M6: 5.9827%
+H measure oos M6: 7.3431%
+H measure oot M6: 6.2038%
+Runtime M6:  99.840299
+Run number : 26
+Train DR:  0.00622
+Validate DR:  0.00632
+Test oos DR:  0.0017636351038970038
+Test oot DR:  0.0006759140501099597
+IR:  160.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 62.8003%
+AUC oot M6: 61.8939%
+DSC oos M6: 1.3180%
+DSC oot M6: 1.3730%
+MCC oos M6: 0.7017%
+MCC oot M6: 0.5067%
+H val M6: 6.6565%
+H measure oos M6: 5.6559%
+H measure oot M6: 4.3455%
+Runtime M6:  87.577195
+Run number : 27
+Train DR:  0.00568
+Validate DR:  0.00702
+Test oos DR:  0.0018833103430900148
+Test oot DR:  0.0007764768721994903
+IR:  175.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 63.4864%
+AUC oot M6: 63.4494%
+DSC oos M6: 1.6045%
+DSC oot M6: 2.1915%
+MCC oos M6: 0.9688%
+MCC oot M6: 1.2626%
+H val M6: 9.0245%
+H measure oos M6: 7.3445%
+H measure oot M6: 6.6381%
+Runtime M6:  90.61678
+Run number : 28
+Train DR:  0.00606
+Validate DR:  0.00596
+Test oos DR:  0.0018770116462903826
+Test oot DR:  0.0007154797506042012
+IR:  164.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 62.9057%
+AUC oot M6: 61.8732%
+DSC oos M6: 1.2100%
+DSC oot M6: 1.7828%
+MCC oos M6: 0.5671%
+MCC oot M6: 0.8785%
+H val M6: 5.9302%
+H measure oos M6: 5.8092%
+H measure oot M6: 4.9391%
+Runtime M6:  113.692894
+Run number : 29
+Train DR:  0.00568
+Validate DR:  0.00588
+Test oos DR:  0.0018329207686929574
+Test oot DR:  0.0007154797506042012
+IR:  175.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 60.1812%
+AUC oot M6: 65.3954%
+DSC oos M6: 1.3735%
+DSC oot M6: 2.2288%
+MCC oos M6: 0.7474%
+MCC oot M6: 1.3562%
+H val M6: 7.5171%
+H measure oos M6: 4.3410%
+H measure oot M6: 7.8007%
+Runtime M6:  2382.7065820000003
+Run number : 30
+Train DR:  0.0063
+Validate DR:  0.00612
+Test oos DR:  0.0018455181622922217
+Test oot DR:  0.0007435054551209557
+IR:  158.0
+Model: 6
+ Classifier  >>>  SMOTE+RF  
+AUC oos M6: 63.5706%
+AUC oot M6: 62.5878%
+DSC oos M6: 1.4125%
+DSC oot M6: 1.7225%
+MCC oos M6: 0.7595%
+MCC oot M6: 0.7822%
+H val M6: 5.7371%
+H measure oos M6: 6.6640%
+H measure oot M6: 4.6800%
+Runtime M6:  146.103464
