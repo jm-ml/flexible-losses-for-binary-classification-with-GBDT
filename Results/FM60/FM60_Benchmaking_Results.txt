@@ -1,0 +1,2610 @@
+Run number : 1
+Train DR:  0.02844
+Validate DR:  0.02894
+Test oos DR:  0.004533208675220509
+Test oot DR:  0.0010276709255948532
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.9231%
+AUC oot M1: 70.1517%
+DSC oos M1: 7.4228%
+DSC oot M1: 2.6477%
+MCC oos M1: 5.1403%
+MCC oot M1: 2.1208%
+H val M1: 20.3893%
+H measure oos M1: 19.2252%
+H measure oot M1: 11.0648%
+Runtime M1:  19.493363
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 70.1761%
+AUC oot M2: 66.5317%
+DSC oos M2: 5.7495%
+DSC oot M2: 2.3221%
+MCC oos M2: 0.5217%
+MCC oot M2: 0.2665%
+H val M2: 16.7573%
+H measure oos M2: 14.7480%
+H measure oot M2: 9.9213%
+Runtime M2:  16.479107
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 75.6776%
+AUC oot M3: 74.7654%
+DSC oos M3: 4.6901%
+DSC oot M3: 2.2235%
+MCC oos M3: -0.0000%
+MCC oot M3: 0.0001%
+H val M3: 21.8428%
+H measure oos M3: 19.1751%
+H measure oot M3: 18.5394%
+Runtime M3:  43.297171
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.0237%
+AUC oot M4: 75.0324%
+DSC oos M4: 6.1602%
+DSC oot M4: 4.2282%
+MCC oos M4: 3.1475%
+MCC oot M4: 3.8260%
+H val M4: 22.1847%
+H measure oos M4: 19.9024%
+H measure oot M4: 18.9537%
+Runtime M4:  41.966629
+Unbalanced data Counter({0.0: 48578, 1.0: 1422})
+Balanced data using SMOTE+ENN Counter({1.0: 47398, 0.0: 42305})
+Runtime Data PreProcessing with SMOTE+ENN  199.254009
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.3755%
+AUC oot M5: 61.0068%
+DSC oos M5: 7.9752%
+DSC oot M5: 2.7991%
+MCC oos M5: 4.4620%
+MCC oot M5: 1.4826%
+H val M6: 12.6687%
+H measure oos M5: 13.2894%
+H measure oot M5: 4.7227%
+Runtime M6:  104.287036
+Run number : 2
+Train DR:  0.02918
+Validate DR:  0.02704
+Test oos DR:  0.004228739435840028
+Test oot DR:  0.0008876950581431403
+IR:  33.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.4987%
+AUC oot M1: 69.0567%
+DSC oos M1: 7.4354%
+DSC oot M1: 2.3039%
+MCC oos M1: 6.3360%
+MCC oot M1: 2.0641%
+H val M1: 20.1717%
+H measure oos M1: 20.3685%
+H measure oot M1: 9.6269%
+Runtime M1:  19.460082
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 74.1524%
+AUC oot M2: 60.2159%
+DSC oos M2: 5.2497%
+DSC oot M2: 1.9848%
+MCC oos M2: 0.1199%
+MCC oot M2: 0.1030%
+H val M2: 19.2055%
+H measure oos M2: 19.0528%
+H measure oot M2: 7.5099%
+Runtime M2:  17.412041
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 77.4255%
+AUC oot M3: 74.4167%
+DSC oos M3: 4.4528%
+DSC oot M3: 1.9297%
+MCC oos M3: 0.0001%
+MCC oot M3: -0.0001%
+H val M3: 22.7646%
+H measure oos M3: 21.9318%
+H measure oot M3: 18.3801%
+Runtime M3:  111.577211
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 77.0715%
+AUC oot M4: 74.5188%
+DSC oos M4: 6.2801%
+DSC oot M4: 3.5667%
+MCC oos M4: 3.4489%
+MCC oot M4: 2.9685%
+H val M4: 22.0466%
+H measure oos M4: 21.8576%
+H measure oot M4: 18.6545%
+Runtime M4:  42.62825
+Unbalanced data Counter({0.0: 48541, 1.0: 1459})
+Balanced data using SMOTE+ENN Counter({1.0: 47300, 0.0: 42033})
+Runtime Data PreProcessing with SMOTE+ENN  186.702514
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.5504%
+AUC oot M5: 58.6384%
+DSC oos M5: 8.2706%
+DSC oot M5: 2.3140%
+MCC oos M5: 5.8994%
+MCC oot M5: 1.1561%
+H val M6: 12.2216%
+H measure oos M5: 12.6554%
+H measure oot M5: 2.7393%
+Runtime M6:  110.725725
+Run number : 3
+Train DR:  0.02824
+Validate DR:  0.02912
+Test oos DR:  0.00460086850619395
+Test oot DR:  0.0009036416759540951
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.2866%
+AUC oot M1: 67.7050%
+DSC oos M1: 7.5430%
+DSC oot M1: 2.3201%
+MCC oos M1: 5.4882%
+MCC oot M1: 1.8728%
+H val M1: 20.2307%
+H measure oos M1: 20.2109%
+H measure oot M1: 8.3625%
+Runtime M1:  19.066293
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 70.1357%
+AUC oot M2: 65.4415%
+DSC oos M2: 5.7959%
+DSC oot M2: 2.0366%
+MCC oos M2: 0.4122%
+MCC oot M2: 0.1893%
+H val M2: 19.1531%
+H measure oos M2: 15.1199%
+H measure oot M2: 8.0546%
+Runtime M2:  15.631169
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.3785%
+AUC oot M3: 72.1754%
+DSC oos M3: 5.0169%
+DSC oot M3: 1.9734%
+MCC oos M3: 0.0001%
+MCC oot M3: -0.0000%
+H val M3: 19.5399%
+H measure oos M3: 20.7407%
+H measure oot M3: 15.4608%
+Runtime M3:  54.344279
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.0877%
+AUC oot M4: 71.7457%
+DSC oos M4: 7.2184%
+DSC oot M4: 3.4036%
+MCC oos M4: 4.0471%
+MCC oot M4: 2.7392%
+H val M4: 19.5373%
+H measure oos M4: 20.3800%
+H measure oot M4: 14.3296%
+Runtime M4:  41.007771
+Unbalanced data Counter({0.0: 48588, 1.0: 1412})
+Balanced data using SMOTE+ENN Counter({1.0: 47327, 0.0: 42066})
+Runtime Data PreProcessing with SMOTE+ENN  207.75329
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 70.9487%
+AUC oot M5: 61.8464%
+DSC oos M5: 7.7883%
+DSC oot M5: 2.4065%
+MCC oos M5: 4.2525%
+MCC oot M5: 1.2255%
+H val M6: 12.6065%
+H measure oos M5: 11.6418%
+H measure oot M5: 4.3875%
+Runtime M6:  105.069188
+Run number : 4
+Train DR:  0.0282
+Validate DR:  0.02832
+Test oos DR:  0.004456322503659782
+Test oot DR:  0.0010064087685135803
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.7991%
+AUC oot M1: 71.5270%
+DSC oos M1: 7.3184%
+DSC oot M1: 2.6076%
+MCC oos M1: 5.4319%
+MCC oot M1: 2.2077%
+H val M1: 17.8965%
+H measure oos M1: 19.0171%
+H measure oot M1: 12.4095%
+Runtime M1:  19.346562
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 62.7272%
+AUC oot M2: 62.7931%
+DSC oos M2: 5.5044%
+DSC oot M2: 2.2432%
+MCC oos M2: 0.0947%
+MCC oot M2: 0.1059%
+H val M2: 6.3812%
+H measure oos M2: 6.2719%
+H measure oot M2: 6.4873%
+Runtime M2:  15.983445
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 75.1840%
+AUC oot M3: 73.0200%
+DSC oos M3: 4.7594%
+DSC oot M3: 2.1681%
+MCC oos M3: -0.0001%
+MCC oot M3: 0.0000%
+H val M3: 19.1387%
+H measure oos M3: 18.5877%
+H measure oot M3: 15.8892%
+Runtime M3:  39.820973
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.5389%
+AUC oot M4: 74.2923%
+DSC oos M4: 7.4602%
+DSC oot M4: 3.8697%
+MCC oos M4: 4.2407%
+MCC oot M4: 3.2608%
+H val M4: 19.7580%
+H measure oos M4: 21.4822%
+H measure oot M4: 16.6037%
+Runtime M4:  40.954452
+Unbalanced data Counter({0.0: 48590, 1.0: 1410})
+Balanced data using SMOTE+ENN Counter({1.0: 47501, 0.0: 42238})
+Runtime Data PreProcessing with SMOTE+ENN  193.226225
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 70.4422%
+AUC oot M5: 62.4481%
+DSC oos M5: 7.4101%
+DSC oot M5: 2.6678%
+MCC oos M5: 3.8165%
+MCC oot M5: 1.2993%
+H val M6: 9.9948%
+H measure oos M5: 10.9801%
+H measure oot M5: 4.6890%
+Runtime M6:  103.420994
+Run number : 5
+Train DR:  0.02802
+Validate DR:  0.0284
+Test oos DR:  0.004447096163072494
+Test oot DR:  0.000956797068657277
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.2291%
+AUC oot M1: 70.4739%
+DSC oos M1: 7.2171%
+DSC oot M1: 2.4788%
+MCC oos M1: 5.2301%
+MCC oot M1: 2.1459%
+H val M1: 20.4463%
+H measure oos M1: 19.9376%
+H measure oot M1: 12.1092%
+Runtime M1:  22.527048
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 69.1938%
+AUC oot M2: 70.4973%
+DSC oos M2: 5.5015%
+DSC oot M2: 2.1387%
+MCC oos M2: 0.1152%
+MCC oot M2: 0.1208%
+H val M2: 20.2270%
+H measure oos M2: 10.7145%
+H measure oot M2: 12.2664%
+Runtime M2:  16.099736
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.1333%
+AUC oot M3: 74.7722%
+DSC oos M3: 4.9075%
+DSC oot M3: 2.0875%
+MCC oos M3: -0.0001%
+MCC oot M3: 0.0002%
+H val M3: 20.8283%
+H measure oos M3: 20.7938%
+H measure oot M3: 17.6645%
+Runtime M3:  52.82953
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.6140%
+AUC oot M4: 75.6038%
+DSC oos M4: 7.6850%
+DSC oot M4: 3.9057%
+MCC oos M4: 4.4017%
+MCC oot M4: 3.7399%
+H val M4: 20.5715%
+H measure oos M4: 21.4904%
+H measure oot M4: 19.9502%
+Runtime M4:  40.781109
+Unbalanced data Counter({0.0: 48599, 1.0: 1401})
+Balanced data using SMOTE+ENN Counter({1.0: 47471, 0.0: 42413})
+Runtime Data PreProcessing with SMOTE+ENN  204.064186
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.2759%
+AUC oot M5: 62.5160%
+DSC oos M5: 7.5967%
+DSC oot M5: 2.5691%
+MCC oos M5: 4.0775%
+MCC oot M5: 1.3105%
+H val M6: 11.1331%
+H measure oos M5: 12.2567%
+H measure oot M5: 4.7512%
+Runtime M6:  109.870519
+Run number : 6
+Train DR:  0.02778
+Validate DR:  0.02904
+Test oos DR:  0.004480926078559214
+Test oot DR:  0.000939078604422883
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.1206%
+AUC oot M1: 69.0912%
+DSC oos M1: 7.1119%
+DSC oot M1: 2.3964%
+MCC oos M1: 4.8660%
+MCC oot M1: 1.9027%
+H val M1: 19.2062%
+H measure oos M1: 19.6171%
+H measure oot M1: 10.4676%
+Runtime M1:  21.118478
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 65.1427%
+AUC oot M2: 65.8913%
+DSC oos M2: 5.5318%
+DSC oot M2: 2.1123%
+MCC oos M2: 0.0887%
+MCC oot M2: 0.1813%
+H val M2: 7.0837%
+H measure oos M2: 6.4723%
+H measure oot M2: 9.0187%
+Runtime M2:  16.228498
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.1514%
+AUC oot M3: 72.4460%
+DSC oos M3: 4.7925%
+DSC oot M3: 2.0355%
+MCC oos M3: 0.0001%
+MCC oot M3: -0.0000%
+H val M3: 19.6088%
+H measure oos M3: 19.8461%
+H measure oot M3: 15.4218%
+Runtime M3:  43.250136
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.4551%
+AUC oot M4: 72.5111%
+DSC oos M4: 8.9111%
+DSC oot M4: 3.2335%
+MCC oos M4: 5.7582%
+MCC oot M4: 4.1351%
+H val M4: 21.3708%
+H measure oos M4: 20.4730%
+H measure oot M4: 16.8663%
+Runtime M4:  41.421981
+Unbalanced data Counter({0.0: 48611, 1.0: 1389})
+Balanced data using SMOTE+ENN Counter({1.0: 47472, 0.0: 42232})
+Runtime Data PreProcessing with SMOTE+ENN  179.012734
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.6782%
+AUC oot M5: 62.8554%
+DSC oos M5: 8.0214%
+DSC oot M5: 2.5694%
+MCC oos M5: 4.6670%
+MCC oot M5: 1.4185%
+H val M6: 12.0609%
+H measure oos M5: 13.1646%
+H measure oot M5: 4.9580%
+Runtime M6:  103.494432
+Run number : 7
+Train DR:  0.02852
+Validate DR:  0.0284
+Test oos DR:  0.004444020716210065
+Test oot DR:  0.0009762873793151105
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.8641%
+AUC oot M1: 69.7512%
+DSC oos M1: 7.9231%
+DSC oot M1: 2.5949%
+MCC oos M1: 6.6663%
+MCC oot M1: 2.4181%
+H val M1: 20.0774%
+H measure oos M1: 19.7051%
+H measure oot M1: 10.8375%
+Runtime M1:  20.482707
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 76.2651%
+AUC oot M2: 65.9095%
+DSC oos M2: 5.5050%
+DSC oot M2: 2.1741%
+MCC oos M2: 0.1316%
+MCC oot M2: 0.0859%
+H val M2: 19.5890%
+H measure oos M2: 20.4221%
+H measure oot M2: 9.1762%
+Runtime M2:  17.181699
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.5230%
+AUC oot M3: 72.8770%
+DSC oos M3: 4.6363%
+DSC oot M3: 2.1055%
+MCC oos M3: 0.0000%
+MCC oot M3: 0.0002%
+H val M3: 20.8871%
+H measure oos M3: 21.0966%
+H measure oot M3: 15.5470%
+Runtime M3:  92.46625
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.4814%
+AUC oot M4: 72.6758%
+DSC oos M4: 6.3667%
+DSC oot M4: 3.5801%
+MCC oos M4: 3.6027%
+MCC oot M4: 2.5089%
+H val M4: 20.5193%
+H measure oos M4: 20.9322%
+H measure oot M4: 15.4780%
+Runtime M4:  41.40278
+Unbalanced data Counter({0.0: 48574, 1.0: 1426})
+Balanced data using SMOTE+ENN Counter({1.0: 47401, 0.0: 41974})
+Runtime Data PreProcessing with SMOTE+ENN  207.622281
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.0859%
+AUC oot M5: 63.9455%
+DSC oos M5: 8.3849%
+DSC oot M5: 2.7962%
+MCC oos M5: 5.5597%
+MCC oot M5: 1.9862%
+H val M6: 13.6136%
+H measure oos M5: 12.1152%
+H measure oot M5: 5.6061%
+Runtime M6:  104.935388
+Run number : 8
+Train DR:  0.02982
+Validate DR:  0.02818
+Test oos DR:  0.004579340378156946
+Test oot DR:  0.000983374765008868
+IR:  33.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.5338%
+AUC oot M1: 69.6646%
+DSC oos M1: 7.9903%
+DSC oot M1: 2.5825%
+MCC oos M1: 5.9625%
+MCC oot M1: 2.3043%
+H val M1: 21.0170%
+H measure oos M1: 19.2176%
+H measure oot M1: 10.0664%
+Runtime M1:  20.996752
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 74.2330%
+AUC oot M2: 68.6829%
+DSC oos M2: 5.6556%
+DSC oot M2: 2.2290%
+MCC oos M2: 0.1126%
+MCC oot M2: 0.2808%
+H val M2: 20.5074%
+H measure oos M2: 17.6578%
+H measure oot M2: 10.6076%
+Runtime M2:  18.439688
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.0093%
+AUC oot M3: 73.6690%
+DSC oos M3: 4.4582%
+DSC oot M3: 2.1256%
+MCC oos M3: 0.0000%
+MCC oot M3: 0.0000%
+H val M3: 22.8269%
+H measure oos M3: 19.7858%
+H measure oot M3: 16.4812%
+Runtime M3:  109.675925
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 75.9687%
+AUC oot M4: 73.7262%
+DSC oos M4: 5.0890%
+DSC oot M4: 3.7835%
+MCC oos M4: 2.6171%
+MCC oot M4: 2.9130%
+H val M4: 22.4152%
+H measure oos M4: 19.6944%
+H measure oot M4: 16.4106%
+Runtime M4:  41.559143
+Unbalanced data Counter({0.0: 48509, 1.0: 1491})
+Balanced data using SMOTE+ENN Counter({1.0: 47088, 0.0: 41782})
+Runtime Data PreProcessing with SMOTE+ENN  195.527632
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.1166%
+AUC oot M5: 60.9043%
+DSC oos M5: 8.1461%
+DSC oot M5: 2.6266%
+MCC oos M5: 4.8921%
+MCC oot M5: 1.3818%
+H val M6: 12.6997%
+H measure oos M5: 12.7297%
+H measure oot M5: 3.5699%
+Runtime M6:  108.730868
+Run number : 9
+Train DR:  0.02824
+Validate DR:  0.02818
+Test oos DR:  0.004265644798189177
+Test oot DR:  0.0009762873793151105
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.6585%
+AUC oot M1: 70.1292%
+DSC oos M1: 7.5572%
+DSC oot M1: 2.5833%
+MCC oos M1: 6.4859%
+MCC oot M1: 2.4431%
+H val M1: 20.5389%
+H measure oos M1: 20.5659%
+H measure oot M1: 10.8659%
+Runtime M1:  20.546676
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 76.1948%
+AUC oot M2: 70.1228%
+DSC oos M2: 5.2967%
+DSC oot M2: 2.2090%
+MCC oos M2: 0.1317%
+MCC oot M2: 0.2579%
+H val M2: 19.3163%
+H measure oos M2: 19.7546%
+H measure oot M2: 12.3191%
+Runtime M2:  17.093408
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.7178%
+AUC oot M3: 72.7695%
+DSC oos M3: 4.5068%
+DSC oot M3: 2.1044%
+MCC oos M3: 0.0003%
+MCC oot M3: -0.0001%
+H val M3: 19.5324%
+H measure oos M3: 20.9888%
+H measure oot M3: 15.6125%
+Runtime M3:  53.571055
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.9011%
+AUC oot M4: 72.4762%
+DSC oos M4: 6.7569%
+DSC oot M4: 3.7432%
+MCC oos M4: 3.9410%
+MCC oot M4: 2.9003%
+H val M4: 20.2084%
+H measure oos M4: 21.4348%
+H measure oot M4: 14.8072%
+Runtime M4:  41.215656
+Unbalanced data Counter({0.0: 48588, 1.0: 1412})
+Balanced data using SMOTE+ENN Counter({1.0: 47449, 0.0: 42113})
+Runtime Data PreProcessing with SMOTE+ENN  184.130654
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.2495%
+AUC oot M5: 58.8849%
+DSC oos M5: 8.0067%
+DSC oot M5: 2.5624%
+MCC oos M5: 5.3149%
+MCC oot M5: 1.3081%
+H val M6: 12.7734%
+H measure oos M5: 12.1728%
+H measure oot M5: 2.9041%
+Runtime M6:  105.905859
+Run number : 10
+Train DR:  0.0283
+Validate DR:  0.029
+Test oos DR:  0.004293323819951039
+Test oot DR:  0.0009532533758103983
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.3281%
+AUC oot M1: 70.1827%
+DSC oos M1: 7.6769%
+DSC oot M1: 2.5552%
+MCC oos M1: 6.5621%
+MCC oot M1: 2.4640%
+H val M1: 17.6287%
+H measure oos M1: 20.3866%
+H measure oot M1: 11.4039%
+Runtime M1:  24.434772
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.0798%
+AUC oot M2: 66.6766%
+DSC oos M2: 5.3251%
+DSC oot M2: 2.1211%
+MCC oos M2: 0.1197%
+MCC oot M2: 0.0713%
+H val M2: 18.0739%
+H measure oos M2: 18.9143%
+H measure oot M2: 8.7935%
+Runtime M2:  16.746798
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.3150%
+AUC oot M3: 73.6952%
+DSC oos M3: 4.4911%
+DSC oot M3: 2.0536%
+MCC oos M3: -0.0002%
+MCC oot M3: 0.0001%
+H val M3: 19.1964%
+H measure oos M3: 21.4078%
+H measure oot M3: 17.0639%
+Runtime M3:  66.413132
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.0831%
+AUC oot M4: 73.8322%
+DSC oos M4: 6.3157%
+DSC oot M4: 3.8349%
+MCC oos M4: 3.6175%
+MCC oot M4: 2.8937%
+H val M4: 19.8384%
+H measure oos M4: 21.1022%
+H measure oot M4: 17.2779%
+Runtime M4:  41.558587
+Unbalanced data Counter({0.0: 48585, 1.0: 1415})
+Balanced data using SMOTE+ENN Counter({1.0: 47584, 0.0: 42223})
+Runtime Data PreProcessing with SMOTE+ENN  196.039954
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.0669%
+AUC oot M5: 61.5268%
+DSC oos M5: 8.4992%
+DSC oot M5: 2.6676%
+MCC oos M5: 5.8102%
+MCC oot M5: 1.6739%
+H val M6: 10.9590%
+H measure oos M5: 13.1993%
+H measure oot M5: 4.5573%
+Runtime M6:  110.053312
+Run number : 11
+Train DR:  0.02778
+Validate DR:  0.02842
+Test oos DR:  0.004299474713675897
+Test oot DR:  0.0010701952397573987
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.9476%
+AUC oot M1: 72.0792%
+DSC oos M1: 6.8719%
+DSC oot M1: 2.7699%
+MCC oos M1: 4.7846%
+MCC oot M1: 2.2923%
+H val M1: 19.0949%
+H measure oos M1: 20.3025%
+H measure oot M1: 13.2486%
+Runtime M1:  22.156687
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 65.2664%
+AUC oot M2: 69.5809%
+DSC oos M2: 5.3026%
+DSC oot M2: 2.3885%
+MCC oos M2: 0.0505%
+MCC oot M2: 0.1414%
+H val M2: 9.6670%
+H measure oos M2: 8.0879%
+H measure oot M2: 11.4249%
+Runtime M2:  16.536576
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 74.7743%
+AUC oot M3: 74.7051%
+DSC oos M3: 4.6205%
+DSC oot M3: 2.2914%
+MCC oos M3: 0.0000%
+MCC oot M3: 0.0001%
+H val M3: 19.0603%
+H measure oos M3: 18.2142%
+H measure oot M3: 17.2110%
+Runtime M3:  36.796132
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.6905%
+AUC oot M4: 74.6647%
+DSC oos M4: 8.4214%
+DSC oot M4: 3.8797%
+MCC oos M4: 5.2242%
+MCC oot M4: 4.3997%
+H val M4: 21.1240%
+H measure oos M4: 21.6429%
+H measure oot M4: 17.7243%
+Runtime M4:  41.807644
+Unbalanced data Counter({0.0: 48611, 1.0: 1389})
+Balanced data using SMOTE+ENN Counter({1.0: 47420, 0.0: 42055})
+Runtime Data PreProcessing with SMOTE+ENN  207.083294
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.5512%
+AUC oot M5: 63.3859%
+DSC oos M5: 7.6073%
+DSC oot M5: 2.8827%
+MCC oos M5: 4.3982%
+MCC oot M5: 1.4693%
+H val M6: 12.4895%
+H measure oos M5: 13.1705%
+H measure oot M5: 5.2476%
+Runtime M6:  107.194089
+Run number : 12
+Train DR:  0.02778
+Validate DR:  0.0279
+Test oos DR:  0.004385587225823912
+Test oot DR:  0.0009904621507026256
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.8363%
+AUC oot M1: 69.2309%
+DSC oos M1: 7.8432%
+DSC oot M1: 2.5800%
+MCC oos M1: 6.7504%
+MCC oot M1: 2.2699%
+H val M1: 18.5306%
+H measure oos M1: 19.7866%
+H measure oot M1: 10.1758%
+Runtime M1:  21.027722
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.6507%
+AUC oot M2: 68.3183%
+DSC oos M2: 5.4390%
+DSC oot M2: 2.2412%
+MCC oos M2: 0.1387%
+MCC oot M2: 0.2638%
+H val M2: 16.3565%
+H measure oos M2: 18.3404%
+H measure oot M2: 10.3604%
+Runtime M2:  16.31638
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.1572%
+AUC oot M3: 73.4191%
+DSC oos M3: 4.5931%
+DSC oot M3: 2.1302%
+MCC oos M3: -0.0001%
+MCC oot M3: -0.0000%
+H val M3: 18.6347%
+H measure oos M3: 19.9818%
+H measure oot M3: 16.3486%
+Runtime M3:  42.061296
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.3634%
+AUC oot M4: 73.5130%
+DSC oos M4: 6.4369%
+DSC oot M4: 4.0972%
+MCC oos M4: 3.6403%
+MCC oot M4: 3.4906%
+H val M4: 19.3828%
+H measure oos M4: 20.2288%
+H measure oot M4: 16.5482%
+Runtime M4:  46.776748
+Unbalanced data Counter({0.0: 48611, 1.0: 1389})
+Balanced data using SMOTE+ENN Counter({1.0: 47641, 0.0: 42268})
+Runtime Data PreProcessing with SMOTE+ENN  204.311621
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.3721%
+AUC oot M5: 61.3321%
+DSC oos M5: 8.5835%
+DSC oot M5: 2.6600%
+MCC oos M5: 5.9851%
+MCC oot M5: 1.4587%
+H val M6: 10.1784%
+H measure oos M5: 12.7653%
+H measure oot M5: 3.9066%
+Runtime M6:  102.31016
+Run number : 13
+Train DR:  0.02832
+Validate DR:  0.02878
+Test oos DR:  0.004247192117014602
+Test oot DR:  0.000995777689972944
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.7599%
+AUC oot M1: 69.3028%
+DSC oos M1: 7.6555%
+DSC oot M1: 2.6391%
+MCC oos M1: 6.4139%
+MCC oot M1: 2.4005%
+H val M1: 20.1166%
+H measure oos M1: 19.1004%
+H measure oot M1: 10.6322%
+Runtime M1:  21.624362
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.6602%
+AUC oot M2: 67.6803%
+DSC oos M2: 5.2682%
+DSC oot M2: 2.2294%
+MCC oos M2: 0.1106%
+MCC oot M2: 0.1477%
+H val M2: 19.8262%
+H measure oos M2: 18.7701%
+H measure oot M2: 10.3356%
+Runtime M2:  17.187642
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.3385%
+AUC oot M3: 71.5802%
+DSC oos M3: 4.3549%
+DSC oot M3: 2.1429%
+MCC oos M3: -0.0000%
+MCC oot M3: 0.0000%
+H val M3: 20.8186%
+H measure oos M3: 20.1746%
+H measure oot M3: 14.9076%
+Runtime M3:  71.626077
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.4269%
+AUC oot M4: 72.2617%
+DSC oos M4: 5.2726%
+DSC oot M4: 3.6801%
+MCC oos M4: 2.7693%
+MCC oot M4: 2.5551%
+H val M4: 21.1574%
+H measure oos M4: 20.4030%
+H measure oot M4: 15.8766%
+Runtime M4:  41.554926
+Unbalanced data Counter({0.0: 48584, 1.0: 1416})
+Balanced data using SMOTE+ENN Counter({1.0: 47572, 0.0: 42332})
+Runtime Data PreProcessing with SMOTE+ENN  207.802636
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 70.5632%
+AUC oot M5: 62.4304%
+DSC oos M5: 8.3842%
+DSC oot M5: 2.7369%
+MCC oos M5: 6.1466%
+MCC oot M5: 1.6685%
+H val M6: 12.6891%
+H measure oos M5: 11.7563%
+H measure oot M5: 4.3257%
+Runtime M6:  103.313997
+Run number : 14
+Train DR:  0.02794
+Validate DR:  0.02914
+Test oos DR:  0.004293323819951039
+Test oot DR:  0.000983374765008868
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.8111%
+AUC oot M1: 68.9782%
+DSC oos M1: 7.5087%
+DSC oot M1: 2.5623%
+MCC oos M1: 5.9251%
+MCC oot M1: 2.1977%
+H val M1: 20.3385%
+H measure oos M1: 19.4141%
+H measure oot M1: 10.0232%
+Runtime M1:  21.645136
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.6210%
+AUC oot M2: 66.8388%
+DSC oos M2: 5.3193%
+DSC oot M2: 2.1996%
+MCC oos M2: 0.1014%
+MCC oot M2: 0.1349%
+H val M2: 14.9915%
+H measure oos M2: 18.6071%
+H measure oot M2: 10.5281%
+Runtime M2:  16.95678
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.0706%
+AUC oot M3: 73.1410%
+DSC oos M3: 4.4102%
+DSC oot M3: 2.1169%
+MCC oos M3: 0.0001%
+MCC oot M3: 0.0002%
+H val M3: 21.4123%
+H measure oos M3: 19.6806%
+H measure oot M3: 16.1447%
+Runtime M3:  57.145619
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.9903%
+AUC oot M4: 73.7629%
+DSC oos M4: 5.0007%
+DSC oot M4: 3.9237%
+MCC oos M4: 2.5643%
+MCC oot M4: 3.0640%
+H val M4: 20.4904%
+H measure oos M4: 21.3711%
+H measure oot M4: 17.1064%
+Runtime M4:  42.78044
+Unbalanced data Counter({0.0: 48603, 1.0: 1397})
+Balanced data using SMOTE+ENN Counter({1.0: 47552, 0.0: 42404})
+Runtime Data PreProcessing with SMOTE+ENN  199.169271
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.8078%
+AUC oot M5: 59.2210%
+DSC oos M5: 8.1735%
+DSC oot M5: 2.5711%
+MCC oos M5: 5.4976%
+MCC oot M5: 1.2880%
+H val M6: 12.1469%
+H measure oos M5: 13.6745%
+H measure oot M5: 2.8703%
+Runtime M6:  108.761127
+Run number : 15
+Train DR:  0.0291
+Validate DR:  0.02776
+Test oos DR:  0.004397889013273629
+Test oot DR:  0.0010223553863245348
+IR:  33.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 77.1149%
+AUC oot M1: 69.3742%
+DSC oos M1: 8.0606%
+DSC oot M1: 2.6965%
+MCC oos M1: 6.8971%
+MCC oot M1: 2.4592%
+H val M1: 20.6928%
+H measure oos M1: 21.5802%
+H measure oot M1: 9.9351%
+Runtime M1:  22.335579
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 76.9066%
+AUC oot M2: 63.8775%
+DSC oos M2: 5.4466%
+DSC oot M2: 2.2975%
+MCC oos M2: 0.1179%
+MCC oot M2: 0.1988%
+H val M2: 18.9246%
+H measure oos M2: 21.1624%
+H measure oot M2: 9.8906%
+Runtime M2:  18.300984
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 77.3204%
+AUC oot M3: 74.3021%
+DSC oos M3: 4.4025%
+DSC oot M3: 2.2110%
+MCC oos M3: 0.0000%
+MCC oot M3: 0.0001%
+H val M3: 21.0831%
+H measure oos M3: 21.9497%
+H measure oot M3: 17.7349%
+Runtime M3:  103.811751
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 77.2335%
+AUC oot M4: 73.3203%
+DSC oos M4: 5.7447%
+DSC oot M4: 4.1910%
+MCC oos M4: 3.2049%
+MCC oot M4: 3.5587%
+H val M4: 20.5417%
+H measure oos M4: 22.1345%
+H measure oot M4: 16.3851%
+Runtime M4:  41.114044
+Unbalanced data Counter({0.0: 48545, 1.0: 1455})
+Balanced data using SMOTE+ENN Counter({1.0: 47482, 0.0: 42139})
+Runtime Data PreProcessing with SMOTE+ENN  203.380636
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 73.9816%
+AUC oot M5: 61.5552%
+DSC oos M5: 9.2277%
+DSC oot M5: 2.7772%
+MCC oos M5: 6.6510%
+MCC oot M5: 1.6016%
+H val M6: 14.1020%
+H measure oos M5: 16.3120%
+H measure oot M5: 3.9164%
+Runtime M6:  102.768835
+Run number : 16
+Train DR:  0.02778
+Validate DR:  0.02876
+Test oos DR:  0.004431718928760349
+Test oot DR:  0.0009585689150807164
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.5440%
+AUC oot M1: 71.3129%
+DSC oos M1: 7.8243%
+DSC oot M1: 2.5405%
+MCC oos M1: 6.1199%
+MCC oot M1: 2.4176%
+H val M1: 19.5139%
+H measure oos M1: 19.2293%
+H measure oot M1: 12.1513%
+Runtime M1:  22.06945
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.6823%
+AUC oot M2: 68.8680%
+DSC oos M2: 5.4856%
+DSC oot M2: 2.1465%
+MCC oos M2: 0.1175%
+MCC oot M2: 0.1392%
+H val M2: 20.3653%
+H measure oos M2: 19.3209%
+H measure oot M2: 11.9546%
+Runtime M2:  16.739605
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.1181%
+AUC oot M3: 74.4240%
+DSC oos M3: 4.3404%
+DSC oot M3: 2.0694%
+MCC oos M3: -0.0001%
+MCC oot M3: 0.0000%
+H val M3: 22.3434%
+H measure oos M3: 19.8320%
+H measure oot M3: 17.4840%
+Runtime M3:  75.908421
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 75.6224%
+AUC oot M4: 74.6007%
+DSC oos M4: 5.2897%
+DSC oot M4: 3.8703%
+MCC oos M4: 2.8272%
+MCC oot M4: 3.1545%
+H val M4: 21.2403%
+H measure oos M4: 19.3735%
+H measure oot M4: 17.5546%
+Runtime M4:  47.799504
+Unbalanced data Counter({0.0: 48611, 1.0: 1389})
+Balanced data using SMOTE+ENN Counter({1.0: 47479, 0.0: 42329})
+Runtime Data PreProcessing with SMOTE+ENN  194.536604
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 70.1171%
+AUC oot M5: 62.4011%
+DSC oos M5: 8.2315%
+DSC oot M5: 2.5926%
+MCC oos M5: 5.2964%
+MCC oot M5: 1.5386%
+H val M6: 11.8862%
+H measure oos M5: 11.1764%
+H measure oot M5: 4.5757%
+Runtime M6:  112.415071
+Run number : 17
+Train DR:  0.02958
+Validate DR:  0.02774
+Test oos DR:  0.004259493904464319
+Test oot DR:  0.0010170398470542167
+IR:  33.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.6853%
+AUC oot M1: 69.4285%
+DSC oos M1: 7.6012%
+DSC oot M1: 2.6843%
+MCC oos M1: 6.5650%
+MCC oot M1: 2.4025%
+H val M1: 19.6108%
+H measure oos M1: 21.3543%
+H measure oot M1: 10.2406%
+Runtime M1:  22.874953
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 77.0801%
+AUC oot M2: 63.2861%
+DSC oos M2: 5.2886%
+DSC oot M2: 2.2720%
+MCC oos M2: 0.1296%
+MCC oot M2: 0.1321%
+H val M2: 19.4514%
+H measure oos M2: 21.8036%
+H measure oot M2: 10.0722%
+Runtime M2:  18.95128
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 77.3892%
+AUC oot M3: 73.1848%
+DSC oos M3: 4.4515%
+DSC oot M3: 2.1887%
+MCC oos M3: -0.0001%
+MCC oot M3: -0.0000%
+H val M3: 21.4710%
+H measure oos M3: 22.5161%
+H measure oot M3: 16.2892%
+Runtime M3:  86.706967
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 77.0464%
+AUC oot M4: 72.8686%
+DSC oos M4: 6.2345%
+DSC oot M4: 3.9580%
+MCC oos M4: 3.4804%
+MCC oot M4: 3.0053%
+H val M4: 20.9610%
+H measure oos M4: 22.2321%
+H measure oot M4: 15.8243%
+Runtime M4:  41.609698
+Unbalanced data Counter({0.0: 48521, 1.0: 1479})
+Balanced data using SMOTE+ENN Counter({1.0: 47159, 0.0: 41734})
+Runtime Data PreProcessing with SMOTE+ENN  193.548514
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 70.0025%
+AUC oot M5: 61.6058%
+DSC oos M5: 7.7633%
+DSC oot M5: 2.7922%
+MCC oos M5: 5.1525%
+MCC oot M5: 1.6733%
+H val M6: 10.9445%
+H measure oos M5: 11.1174%
+H measure oot M5: 4.2894%
+Runtime M6:  109.583157
+Run number : 18
+Train DR:  0.02808
+Validate DR:  0.0285
+Test oos DR:  0.004311776501125614
+Test oot DR:  0.0010365301577120502
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.1260%
+AUC oot M1: 70.3736%
+DSC oos M1: 7.6893%
+DSC oot M1: 2.7560%
+MCC oos M1: 6.2973%
+MCC oot M1: 2.5029%
+H val M1: 20.5534%
+H measure oos M1: 19.8363%
+H measure oot M1: 11.1637%
+Runtime M1:  22.498655
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.7336%
+AUC oot M2: 70.1817%
+DSC oos M2: 5.3443%
+DSC oot M2: 2.3067%
+MCC oos M2: 0.1126%
+MCC oot M2: 0.0954%
+H val M2: 20.7491%
+H measure oos M2: 19.3392%
+H measure oot M2: 11.4481%
+Runtime M2:  17.061598
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.9089%
+AUC oot M3: 73.6051%
+DSC oos M3: 4.3844%
+DSC oot M3: 2.2296%
+MCC oos M3: 0.0001%
+MCC oot M3: 0.0000%
+H val M3: 22.3330%
+H measure oos M3: 21.7128%
+H measure oot M3: 16.1788%
+Runtime M3:  128.515293
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.9227%
+AUC oot M4: 73.8469%
+DSC oos M4: 5.3828%
+DSC oot M4: 3.9987%
+MCC oos M4: 2.9289%
+MCC oot M4: 2.9266%
+H val M4: 21.7828%
+H measure oos M4: 21.4131%
+H measure oot M4: 16.8261%
+Runtime M4:  44.877245
+Unbalanced data Counter({0.0: 48596, 1.0: 1404})
+Balanced data using SMOTE+ENN Counter({1.0: 47442, 0.0: 42283})
+Runtime Data PreProcessing with SMOTE+ENN  193.334263
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.1249%
+AUC oot M5: 60.9870%
+DSC oos M5: 8.3433%
+DSC oot M5: 2.9172%
+MCC oos M5: 5.6216%
+MCC oot M5: 1.8232%
+H val M6: 13.5353%
+H measure oos M5: 13.5403%
+H measure oot M5: 4.4955%
+Runtime M6:  106.727103
+Run number : 19
+Train DR:  0.02868
+Validate DR:  0.02824
+Test oos DR:  0.004413266247585774
+Test oot DR:  0.000983374765008868
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.1810%
+AUC oot M1: 67.7480%
+DSC oos M1: 7.7612%
+DSC oot M1: 2.5368%
+MCC oos M1: 6.3906%
+MCC oot M1: 2.0939%
+H val M1: 19.2373%
+H measure oos M1: 18.5122%
+H measure oot M1: 9.5754%
+Runtime M1:  24.908086
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.4079%
+AUC oot M2: 70.5207%
+DSC oos M2: 5.4662%
+DSC oot M2: 2.2049%
+MCC oos M2: 0.1224%
+MCC oot M2: 0.1609%
+H val M2: 19.4185%
+H measure oos M2: 18.8081%
+H measure oot M2: 12.8620%
+Runtime M2:  18.009087
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 75.9352%
+AUC oot M3: 71.8681%
+DSC oos M3: 4.6067%
+DSC oot M3: 2.1347%
+MCC oos M3: 0.0000%
+MCC oot M3: 0.0000%
+H val M3: 20.4408%
+H measure oos M3: 20.0391%
+H measure oot M3: 15.5786%
+Runtime M3:  149.925622
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 75.4143%
+AUC oot M4: 71.4395%
+DSC oos M4: 6.2138%
+DSC oot M4: 3.8308%
+MCC oos M4: 3.3899%
+MCC oot M4: 2.9618%
+H val M4: 20.5468%
+H measure oos M4: 19.2674%
+H measure oot M4: 15.2273%
+Runtime M4:  41.520938
+Unbalanced data Counter({0.0: 48566, 1.0: 1434})
+Balanced data using SMOTE+ENN Counter({1.0: 47440, 0.0: 42119})
+Runtime Data PreProcessing with SMOTE+ENN  207.803003
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.0991%
+AUC oot M5: 61.8324%
+DSC oos M5: 8.7226%
+DSC oot M5: 2.6538%
+MCC oos M5: 6.1909%
+MCC oot M5: 1.5840%
+H val M6: 13.6097%
+H measure oos M5: 12.4517%
+H measure oot M5: 4.1977%
+Runtime M6:  105.880886
+Run number : 20
+Train DR:  0.02876
+Validate DR:  0.02858
+Test oos DR:  0.004348681863474763
+Test oot DR:  0.0009532533758103983
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.8122%
+AUC oot M1: 70.7423%
+DSC oos M1: 7.2092%
+DSC oot M1: 2.4829%
+MCC oos M1: 5.4682%
+MCC oot M1: 2.1683%
+H val M1: 20.0100%
+H measure oos M1: 20.7847%
+H measure oot M1: 11.3346%
+Runtime M1:  23.213095
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 76.0822%
+AUC oot M2: 70.9196%
+DSC oos M2: 5.3891%
+DSC oot M2: 2.1440%
+MCC oos M2: 0.1150%
+MCC oot M2: 0.1841%
+H val M2: 19.5284%
+H measure oos M2: 19.5563%
+H measure oot M2: 12.8590%
+Runtime M2:  18.278426
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 77.4973%
+AUC oot M3: 74.6414%
+DSC oos M3: 4.7639%
+DSC oot M3: 2.0831%
+MCC oos M3: 0.0000%
+MCC oot M3: 0.0002%
+H val M3: 20.9372%
+H measure oos M3: 22.1444%
+H measure oot M3: 17.7954%
+Runtime M3:  94.039605
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 77.7181%
+AUC oot M4: 74.5043%
+DSC oos M4: 7.9409%
+DSC oot M4: 3.7699%
+MCC oos M4: 4.6088%
+MCC oot M4: 3.9727%
+H val M4: 20.5949%
+H measure oos M4: 22.5103%
+H measure oot M4: 17.6484%
+Runtime M4:  41.731379
+Unbalanced data Counter({0.0: 48562, 1.0: 1438})
+Balanced data using SMOTE+ENN Counter({1.0: 47388, 0.0: 42098})
+Runtime Data PreProcessing with SMOTE+ENN  191.355233
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.7818%
+AUC oot M5: 63.4028%
+DSC oos M5: 7.7960%
+DSC oot M5: 2.5998%
+MCC oos M5: 4.5864%
+MCC oot M5: 1.4454%
+H val M6: 11.7578%
+H measure oos M5: 13.7055%
+H measure oot M5: 5.0792%
+Runtime M6:  106.412317
+Run number : 21
+Train DR:  0.02874
+Validate DR:  0.0288
+Test oos DR:  0.004231814882702457
+Test oot DR:  0.0010064087685135803
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.7209%
+AUC oot M1: 69.1886%
+DSC oos M1: 6.9402%
+DSC oot M1: 2.5619%
+MCC oos M1: 5.1663%
+MCC oot M1: 1.9510%
+H val M1: 20.5322%
+H measure oos M1: 19.1635%
+H measure oot M1: 10.0859%
+Runtime M1:  23.405491
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 63.0606%
+AUC oot M2: 66.7932%
+DSC oos M2: 5.2432%
+DSC oot M2: 2.2610%
+MCC oos M2: 0.0966%
+MCC oot M2: 0.1910%
+H val M2: 6.1947%
+H measure oos M2: 6.9597%
+H measure oot M2: 10.1542%
+Runtime M2:  18.122176
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.2809%
+AUC oot M3: 73.7036%
+DSC oos M3: 4.6333%
+DSC oot M3: 2.1856%
+MCC oos M3: 0.0001%
+MCC oot M3: -0.0001%
+H val M3: 20.1353%
+H measure oos M3: 20.5732%
+H measure oot M3: 17.5361%
+Runtime M3:  80.518297
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.3420%
+AUC oot M4: 74.2245%
+DSC oos M4: 7.6892%
+DSC oot M4: 4.1404%
+MCC oos M4: 4.5096%
+MCC oot M4: 4.2308%
+H val M4: 21.8964%
+H measure oos M4: 20.4672%
+H measure oot M4: 18.5546%
+Runtime M4:  50.73129
+Unbalanced data Counter({0.0: 48563, 1.0: 1437})
+Balanced data using SMOTE+ENN Counter({1.0: 47421, 0.0: 42238})
+Runtime Data PreProcessing with SMOTE+ENN  218.464284
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.4848%
+AUC oot M5: 60.2186%
+DSC oos M5: 7.4522%
+DSC oot M5: 2.5505%
+MCC oos M5: 4.2447%
+MCC oot M5: 0.9979%
+H val M6: 13.0965%
+H measure oos M5: 12.4809%
+H measure oot M5: 3.0786%
+Runtime M6:  128.948403
+Run number : 22
+Train DR:  0.02788
+Validate DR:  0.02902
+Test oos DR:  0.004407115353860916
+Test oot DR:  0.0009461659901166407
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.1274%
+AUC oot M1: 68.7811%
+DSC oos M1: 7.8091%
+DSC oot M1: 2.4704%
+MCC oos M1: 6.4527%
+MCC oot M1: 2.2217%
+H val M1: 21.0622%
+H measure oos M1: 19.5001%
+H measure oot M1: 9.2889%
+Runtime M1:  23.815879
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 76.0270%
+AUC oot M2: 69.4142%
+DSC oos M2: 5.4559%
+DSC oot M2: 2.1206%
+MCC oos M2: 0.1123%
+MCC oot M2: 0.1446%
+H val M2: 20.8031%
+H measure oos M2: 18.9005%
+H measure oot M2: 11.2787%
+Runtime M2:  27.608885
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 77.3049%
+AUC oot M3: 73.6118%
+DSC oos M3: 4.5467%
+DSC oot M3: 2.0493%
+MCC oos M3: -0.0001%
+MCC oot M3: -0.0002%
+H val M3: 23.5316%
+H measure oos M3: 21.2592%
+H measure oot M3: 15.8703%
+Runtime M3:  106.344553
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.9756%
+AUC oot M4: 73.2476%
+DSC oos M4: 5.9003%
+DSC oot M4: 3.7241%
+MCC oos M4: 3.2011%
+MCC oot M4: 3.0025%
+H val M4: 22.6756%
+H measure oos M4: 20.9744%
+H measure oot M4: 15.2924%
+Runtime M4:  67.785729
+Unbalanced data Counter({0.0: 48606, 1.0: 1394})
+Balanced data using SMOTE+ENN Counter({1.0: 47498, 0.0: 42242})
+Runtime Data PreProcessing with SMOTE+ENN  239.146082
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.3408%
+AUC oot M5: 58.8231%
+DSC oos M5: 8.6927%
+DSC oot M5: 2.4342%
+MCC oos M5: 6.1948%
+MCC oot M5: 1.1008%
+H val M6: 11.9119%
+H measure oos M5: 13.8925%
+H measure oot M5: 2.5844%
+Runtime M6:  168.341231
+Run number : 23
+Train DR:  0.02718
+Validate DR:  0.02812
+Test oos DR:  0.004342530969749904
+Test oot DR:  0.0009479378365400801
+IR:  36.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.2158%
+AUC oot M1: 71.0593%
+DSC oos M1: 7.7525%
+DSC oot M1: 2.5056%
+MCC oos M1: 6.5595%
+MCC oot M1: 2.3732%
+H val M1: 20.4109%
+H measure oos M1: 20.6590%
+H measure oot M1: 12.2313%
+Runtime M1:  37.820609
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.1569%
+AUC oot M2: 69.7336%
+DSC oos M2: 5.3832%
+DSC oot M2: 2.1518%
+MCC oos M2: 0.1207%
+MCC oot M2: 0.2833%
+H val M2: 20.0263%
+H measure oos M2: 19.3587%
+H measure oot M2: 12.9231%
+Runtime M2:  27.091614
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.1289%
+AUC oot M3: 74.4061%
+DSC oos M3: 4.4805%
+DSC oot M3: 2.0558%
+MCC oos M3: -0.0001%
+MCC oot M3: -0.0001%
+H val M3: 21.7338%
+H measure oos M3: 20.8899%
+H measure oot M3: 18.6819%
+Runtime M3:  128.252118
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 75.8174%
+AUC oot M4: 74.4307%
+DSC oos M4: 6.1094%
+DSC oot M4: 3.9295%
+MCC oos M4: 3.4327%
+MCC oot M4: 3.2974%
+H val M4: 21.6254%
+H measure oos M4: 20.4032%
+H measure oot M4: 18.8169%
+Runtime M4:  55.770317
+Unbalanced data Counter({0.0: 48641, 1.0: 1359})
+Balanced data using SMOTE+ENN Counter({1.0: 47588, 0.0: 42379})
+Runtime Data PreProcessing with SMOTE+ENN  288.488412
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.3988%
+AUC oot M5: 59.7286%
+DSC oos M5: 8.6938%
+DSC oot M5: 2.4659%
+MCC oos M5: 6.1679%
+MCC oot M5: 1.2121%
+H val M6: 12.2230%
+H measure oos M5: 13.3653%
+H measure oot M5: 2.8521%
+Runtime M6:  107.164538
+Run number : 24
+Train DR:  0.02872
+Validate DR:  0.0278
+Test oos DR:  0.004367134544649338
+Test oot DR:  0.0010861418575683535
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 74.6255%
+AUC oot M1: 66.7404%
+DSC oos M1: 6.9165%
+DSC oot M1: 2.6947%
+MCC oos M1: 4.5880%
+MCC oot M1: 1.6687%
+H val M1: 18.1848%
+H measure oos M1: 17.7853%
+H measure oot M1: 7.6527%
+Runtime M1:  25.41362
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 67.8584%
+AUC oot M2: 68.2835%
+DSC oos M2: 5.3985%
+DSC oot M2: 2.4254%
+MCC oos M2: 0.0847%
+MCC oot M2: 0.1493%
+H val M2: 10.0495%
+H measure oos M2: 8.7904%
+H measure oot M2: 10.1723%
+Runtime M2:  18.574937
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 75.0167%
+AUC oot M3: 71.4032%
+DSC oos M3: 4.6491%
+DSC oot M3: 2.3398%
+MCC oos M3: -0.0001%
+MCC oot M3: 0.0001%
+H val M3: 18.4222%
+H measure oos M3: 17.9272%
+H measure oot M3: 13.5468%
+Runtime M3:  62.641204
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 75.7855%
+AUC oot M4: 73.0642%
+DSC oos M4: 6.5407%
+DSC oot M4: 4.1474%
+MCC oos M4: 3.3426%
+MCC oot M4: 3.7030%
+H val M4: 20.2150%
+H measure oos M4: 19.5601%
+H measure oot M4: 16.3996%
+Runtime M4:  42.560197
+Unbalanced data Counter({0.0: 48564, 1.0: 1436})
+Balanced data using SMOTE+ENN Counter({1.0: 47446, 0.0: 42259})
+Runtime Data PreProcessing with SMOTE+ENN  202.695285
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 69.2198%
+AUC oot M5: 57.0696%
+DSC oos M5: 7.1140%
+DSC oot M5: 2.6360%
+MCC oos M5: 3.5158%
+MCC oot M5: 0.7978%
+H val M6: 10.4579%
+H measure oos M5: 9.9869%
+H measure oot M5: 1.8238%
+Runtime M6:  108.70933
+Run number : 25
+Train DR:  0.02764
+Validate DR:  0.02816
+Test oos DR:  0.00435790820406205
+Test oot DR:  0.0009869184578557468
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.8179%
+AUC oot M1: 69.2496%
+DSC oos M1: 7.6593%
+DSC oot M1: 2.6045%
+MCC oos M1: 6.5150%
+MCC oot M1: 2.3193%
+H val M1: 19.9579%
+H measure oos M1: 19.2774%
+H measure oot M1: 10.0231%
+Runtime M1:  24.252293
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 76.0149%
+AUC oot M2: 72.5792%
+DSC oos M2: 5.4108%
+DSC oot M2: 2.2096%
+MCC oos M2: 0.1512%
+MCC oot M2: 0.1462%
+H val M2: 19.8109%
+H measure oos M2: 19.1341%
+H measure oot M2: 14.9781%
+Runtime M2:  17.123772
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.9023%
+AUC oot M3: 73.8945%
+DSC oos M3: 4.6049%
+DSC oot M3: 2.1260%
+MCC oos M3: 0.0002%
+MCC oot M3: -0.0000%
+H val M3: 21.2780%
+H measure oos M3: 21.1864%
+H measure oot M3: 17.2537%
+Runtime M3:  91.432652
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.2856%
+AUC oot M4: 73.7475%
+DSC oos M4: 6.7138%
+DSC oot M4: 3.9807%
+MCC oos M4: 3.8111%
+MCC oot M4: 3.0835%
+H val M4: 20.9227%
+H measure oos M4: 20.1471%
+H measure oot M4: 17.8128%
+Runtime M4:  44.186072
+Unbalanced data Counter({0.0: 48618, 1.0: 1382})
+Balanced data using SMOTE+ENN Counter({1.0: 47480, 0.0: 42333})
+Runtime Data PreProcessing with SMOTE+ENN  214.351126
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 70.6959%
+AUC oot M5: 60.0468%
+DSC oos M5: 8.2735%
+DSC oot M5: 2.6928%
+MCC oos M5: 5.8355%
+MCC oot M5: 1.5895%
+H val M6: 11.4535%
+H measure oos M5: 11.9064%
+H measure oot M5: 3.6003%
+Runtime M6:  166.286876
+Run number : 26
+Train DR:  0.0287
+Validate DR:  0.02758
+Test oos DR:  0.004342530969749904
+Test oot DR:  0.00097805922573855
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.5732%
+AUC oot M1: 69.6876%
+DSC oos M1: 7.8006%
+DSC oot M1: 2.5824%
+MCC oos M1: 6.5062%
+MCC oot M1: 2.3703%
+H val M1: 20.6929%
+H measure oos M1: 20.5136%
+H measure oot M1: 10.4151%
+Runtime M1:  36.976044
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 74.6152%
+AUC oot M2: 65.7259%
+DSC oos M2: 5.3810%
+DSC oot M2: 2.1918%
+MCC oos M2: 0.1154%
+MCC oot M2: 0.1535%
+H val M2: 20.4650%
+H measure oos M2: 18.8607%
+H measure oot M2: 9.0897%
+Runtime M2:  27.00316
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.7767%
+AUC oot M3: 73.3304%
+DSC oos M3: 4.4083%
+DSC oot M3: 2.1124%
+MCC oos M3: -0.0000%
+MCC oot M3: -0.0001%
+H val M3: 22.3915%
+H measure oos M3: 21.2967%
+H measure oot M3: 16.4202%
+Runtime M3:  115.031207
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 77.0082%
+AUC oot M4: 73.6851%
+DSC oos M4: 5.5083%
+DSC oot M4: 4.0217%
+MCC oos M4: 2.9857%
+MCC oot M4: 3.3272%
+H val M4: 21.9490%
+H measure oos M4: 21.7090%
+H measure oot M4: 16.9195%
+Runtime M4:  74.566621
+Unbalanced data Counter({0.0: 48565, 1.0: 1435})
+Balanced data using SMOTE+ENN Counter({1.0: 47411, 0.0: 42176})
+Runtime Data PreProcessing with SMOTE+ENN  366.924299
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.2106%
+AUC oot M5: 60.6565%
+DSC oos M5: 8.5864%
+DSC oot M5: 2.5978%
+MCC oos M5: 5.9421%
+MCC oot M5: 1.4048%
+H val M6: 13.0103%
+H measure oos M5: 13.1319%
+H measure oot M5: 3.6829%
+Runtime M6:  265.351674
+Run number : 27
+Train DR:  0.02776
+Validate DR:  0.02894
+Test oos DR:  0.004237965776427315
+Test oot DR:  0.0010117243077838985
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.3198%
+AUC oot M1: 72.5412%
+DSC oos M1: 7.4923%
+DSC oot M1: 2.7001%
+MCC oos M1: 6.0182%
+MCC oot M1: 2.6574%
+H val M1: 19.3690%
+H measure oos M1: 18.5045%
+H measure oot M1: 13.6263%
+Runtime M1:  64.887559
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.7349%
+AUC oot M2: 67.4752%
+DSC oos M2: 5.2536%
+DSC oot M2: 2.2651%
+MCC oos M2: 0.0989%
+MCC oot M2: 0.1543%
+H val M2: 19.0293%
+H measure oos M2: 19.2319%
+H measure oot M2: 14.1080%
+Runtime M2:  35.474311
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 75.1672%
+AUC oot M3: 75.8963%
+DSC oos M3: 4.3746%
+DSC oot M3: 2.1730%
+MCC oos M3: -0.0002%
+MCC oot M3: -0.0002%
+H val M3: 19.0523%
+H measure oos M3: 18.4108%
+H measure oot M3: 19.2536%
+Runtime M3:  47.502127
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.8452%
+AUC oot M4: 76.3439%
+DSC oos M4: 5.0643%
+DSC oot M4: 4.4282%
+MCC oos M4: 2.6926%
+MCC oot M4: 3.9522%
+H val M4: 19.2796%
+H measure oos M4: 20.8873%
+H measure oot M4: 20.5477%
+Runtime M4:  42.772273
+Unbalanced data Counter({0.0: 48612, 1.0: 1388})
+Balanced data using SMOTE+ENN Counter({1.0: 47517, 0.0: 42298})
+Runtime Data PreProcessing with SMOTE+ENN  195.747255
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 70.3824%
+AUC oot M5: 64.4538%
+DSC oos M5: 8.2096%
+DSC oot M5: 2.9492%
+MCC oos M5: 5.8145%
+MCC oot M5: 2.1546%
+H val M6: 11.4828%
+H measure oos M5: 11.2066%
+H measure oot M5: 6.1648%
+Runtime M6:  103.272505
+Run number : 28
+Train DR:  0.02858
+Validate DR:  0.02658
+Test oos DR:  0.004413266247585774
+Test oot DR:  0.001031214618441732
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.0029%
+AUC oot M1: 72.2882%
+DSC oos M1: 7.2322%
+DSC oot M1: 2.6991%
+MCC oos M1: 5.2304%
+MCC oot M1: 2.4162%
+H val M1: 19.5494%
+H measure oos M1: 17.7172%
+H measure oot M1: 14.3369%
+Runtime M1:  30.705169
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 74.6775%
+AUC oot M2: 73.2536%
+DSC oos M2: 5.4662%
+DSC oot M2: 2.3192%
+MCC oos M2: 0.1218%
+MCC oot M2: 0.2102%
+H val M2: 19.2304%
+H measure oos M2: 17.5470%
+H measure oot M2: 15.9996%
+Runtime M2:  23.704664
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 74.9386%
+AUC oot M3: 74.0604%
+DSC oos M3: 4.7365%
+DSC oot M3: 2.2274%
+MCC oos M3: 0.0000%
+MCC oot M3: 0.0001%
+H val M3: 19.3611%
+H measure oos M3: 17.8057%
+H measure oot M3: 17.6347%
+Runtime M3:  54.142697
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 75.8538%
+AUC oot M4: 74.4047%
+DSC oos M4: 8.1043%
+DSC oot M4: 4.0902%
+MCC oos M4: 4.6900%
+MCC oot M4: 4.4398%
+H val M4: 21.5869%
+H measure oos M4: 19.1742%
+H measure oot M4: 18.3622%
+Runtime M4:  67.230811
+Unbalanced data Counter({0.0: 48571, 1.0: 1429})
+Balanced data using SMOTE+ENN Counter({1.0: 47436, 0.0: 42255})
+Runtime Data PreProcessing with SMOTE+ENN  264.922139
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.0373%
+AUC oot M5: 63.0025%
+DSC oos M5: 7.9896%
+DSC oot M5: 2.7890%
+MCC oos M5: 4.8132%
+MCC oot M5: 1.4642%
+H val M6: 12.2884%
+H measure oos M5: 13.0277%
+H measure oot M5: 4.8856%
+Runtime M6:  142.68397
+Run number : 29
+Train DR:  0.02892
+Validate DR:  0.02894
+Test oos DR:  0.0044686242911094985
+Test oot DR:  0.0009798310721619893
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 74.8791%
+AUC oot M1: 68.2093%
+DSC oos M1: 7.8821%
+DSC oot M1: 2.5693%
+MCC oos M1: 6.2099%
+MCC oot M1: 2.3022%
+H val M1: 21.1463%
+H measure oos M1: 18.7532%
+H measure oot M1: 8.9538%
+Runtime M1:  46.477498
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 73.0675%
+AUC oot M2: 63.4268%
+DSC oos M2: 5.5312%
+DSC oot M2: 2.1986%
+MCC oos M2: 0.1261%
+MCC oot M2: 0.1683%
+H val M2: 19.8754%
+H measure oos M2: 16.6616%
+H measure oot M2: 9.5911%
+Runtime M2:  29.579608
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 75.6147%
+AUC oot M3: 71.5911%
+DSC oos M3: 4.5306%
+DSC oot M3: 2.1230%
+MCC oos M3: 0.0000%
+MCC oot M3: -0.0001%
+H val M3: 21.6752%
+H measure oos M3: 19.7463%
+H measure oot M3: 14.2832%
+Runtime M3:  131.669193
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 75.6741%
+AUC oot M4: 70.7794%
+DSC oos M4: 5.2837%
+DSC oot M4: 3.6904%
+MCC oos M4: 2.7794%
+MCC oot M4: 2.7835%
+H val M4: 20.7162%
+H measure oos M4: 19.8378%
+H measure oot M4: 13.2003%
+Runtime M4:  54.717632
+Unbalanced data Counter({0.0: 48554, 1.0: 1446})
+Balanced data using SMOTE+ENN Counter({1.0: 47461, 0.0: 42181})
+Runtime Data PreProcessing with SMOTE+ENN  424.945454
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.1147%
+AUC oot M5: 60.3336%
+DSC oos M5: 8.5592%
+DSC oot M5: 2.6241%
+MCC oos M5: 5.7268%
+MCC oot M5: 1.4718%
+H val M6: 13.7473%
+H measure oos M5: 12.9672%
+H measure oot M5: 3.4321%
+Runtime M6:  308.990967
+Run number : 30
+Train DR:  0.02796
+Validate DR:  0.02772
+Test oos DR:  0.00449630331287136
+Test oot DR:  0.0010258990791714138
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.0945%
+AUC oot M1: 70.8010%
+DSC oos M1: 8.0116%
+DSC oot M1: 2.7017%
+MCC oos M1: 6.5012%
+MCC oot M1: 2.4458%
+H val M1: 18.6555%
+H measure oos M1: 19.4620%
+H measure oot M1: 11.3332%
+Runtime M1:  57.937128
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.6471%
+AUC oot M2: 64.2812%
+DSC oos M2: 5.5567%
+DSC oot M2: 2.2879%
+MCC oos M2: 0.1039%
+MCC oot M2: 0.1167%
+H val M2: 19.0795%
+H measure oos M2: 19.1037%
+H measure oot M2: 10.4257%
+Runtime M2:  23.83485
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.1335%
+AUC oot M3: 75.2328%
+DSC oos M3: 4.5504%
+DSC oot M3: 2.2142%
+MCC oos M3: -0.0001%
+MCC oot M3: -0.0002%
+H val M3: 20.1360%
+H measure oos M3: 19.9880%
+H measure oot M3: 17.9443%
+Runtime M3:  117.864401
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.5357%
+AUC oot M4: 75.4200%
+DSC oos M4: 5.2662%
+DSC oot M4: 4.1635%
+MCC oos M4: 2.7580%
+MCC oot M4: 3.2921%
+H val M4: 20.0247%
+H measure oos M4: 20.5844%
+H measure oot M4: 18.6198%
+Runtime M4:  42.985729
+Unbalanced data Counter({0.0: 48602, 1.0: 1398})
+Balanced data using SMOTE+ENN Counter({1.0: 47574, 0.0: 42342})
+Runtime Data PreProcessing with SMOTE+ENN  196.337762
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.5097%
+AUC oot M5: 60.8908%
+DSC oos M5: 8.9067%
+DSC oot M5: 2.7689%
+MCC oos M5: 6.2595%
+MCC oot M5: 1.5598%
+H val M6: 9.9629%
+H measure oos M5: 13.9662%
+H measure oot M5: 3.8053%
+Runtime M6:  108.542273
+Run number : 31
+Train DR:  0.02774
+Validate DR:  0.0287
+Test oos DR:  0.0041918340734908785
+Test oot DR:  0.0009018698295306556
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.1105%
+AUC oot M1: 69.2045%
+DSC oos M1: 6.7294%
+DSC oot M1: 2.2935%
+MCC oos M1: 4.8014%
+MCC oot M1: 1.8301%
+H val M1: 20.0189%
+H measure oos M1: 18.0291%
+H measure oot M1: 10.1338%
+Runtime M1:  29.899581
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 73.0396%
+AUC oot M2: 69.6194%
+DSC oos M2: 5.1998%
+DSC oot M2: 2.0105%
+MCC oos M2: 0.0994%
+MCC oot M2: 0.0764%
+H val M2: 16.7810%
+H measure oos M2: 14.9300%
+H measure oot M2: 10.9211%
+Runtime M2:  17.96001
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 77.2203%
+AUC oot M3: 72.2508%
+DSC oos M3: 4.5497%
+DSC oot M3: 1.9765%
+MCC oos M3: -0.0000%
+MCC oot M3: -0.0000%
+H val M3: 22.2914%
+H measure oos M3: 21.5496%
+H measure oot M3: 14.3117%
+Runtime M3:  103.547803
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 77.2716%
+AUC oot M4: 72.1513%
+DSC oos M4: 8.2065%
+DSC oot M4: 3.0668%
+MCC oos M4: 5.0136%
+MCC oot M4: 3.3980%
+H val M4: 22.7081%
+H measure oos M4: 21.6422%
+H measure oot M4: 14.1701%
+Runtime M4:  41.623998
+Unbalanced data Counter({0.0: 48613, 1.0: 1387})
+Balanced data using SMOTE+ENN Counter({1.0: 47495, 0.0: 42344})
+Runtime Data PreProcessing with SMOTE+ENN  207.949366
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 69.3294%
+AUC oot M5: 63.9835%
+DSC oos M5: 7.1968%
+DSC oot M5: 2.4281%
+MCC oos M5: 3.8641%
+MCC oot M5: 1.3056%
+H val M6: 14.0379%
+H measure oos M5: 10.4932%
+H measure oot M5: 5.3868%
+Runtime M6:  107.006377
+Run number : 32
+Train DR:  0.02828
+Validate DR:  0.02798
+Test oos DR:  0.004339455522887475
+Test oot DR:  0.0009089572152244132
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.2997%
+AUC oot M1: 71.0410%
+DSC oos M1: 7.6732%
+DSC oot M1: 2.4099%
+MCC oos M1: 6.2452%
+MCC oot M1: 2.3954%
+H val M1: 19.5338%
+H measure oos M1: 20.1661%
+H measure oot M1: 12.4730%
+Runtime M1:  26.688876
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.9092%
+AUC oot M2: 67.8533%
+DSC oos M2: 5.3768%
+DSC oot M2: 2.0421%
+MCC oos M2: 0.1129%
+MCC oot M2: 0.1584%
+H val M2: 19.7156%
+H measure oos M2: 19.0983%
+H measure oot M2: 11.3724%
+Runtime M2:  19.128563
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.9369%
+AUC oot M3: 74.3153%
+DSC oos M3: 4.3789%
+DSC oot M3: 1.9693%
+MCC oos M3: 0.0002%
+MCC oot M3: -0.0001%
+H val M3: 20.6822%
+H measure oos M3: 21.2237%
+H measure oot M3: 17.1916%
+Runtime M3:  104.59566
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.8252%
+AUC oot M4: 74.1288%
+DSC oos M4: 5.2471%
+DSC oot M4: 3.8104%
+MCC oos M4: 2.7368%
+MCC oot M4: 3.2969%
+H val M4: 20.1363%
+H measure oos M4: 21.2453%
+H measure oot M4: 17.5535%
+Runtime M4:  43.1726
+Unbalanced data Counter({0.0: 48586, 1.0: 1414})
+Balanced data using SMOTE+ENN Counter({1.0: 47401, 0.0: 42036})
+Runtime Data PreProcessing with SMOTE+ENN  197.860946
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.0980%
+AUC oot M5: 63.7443%
+DSC oos M5: 8.4479%
+DSC oot M5: 2.5414%
+MCC oos M5: 5.8258%
+MCC oot M5: 1.7638%
+H val M6: 11.8035%
+H measure oos M5: 13.6313%
+H measure oot M5: 5.0920%
+Runtime M6:  110.038784
+Run number : 33
+Train DR:  0.02846
+Validate DR:  0.02838
+Test oos DR:  0.0040565144115439974
+Test oot DR:  0.000956797068657277
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.0833%
+AUC oot M1: 71.4434%
+DSC oos M1: 7.4117%
+DSC oot M1: 2.6182%
+MCC oos M1: 6.1615%
+MCC oot M1: 2.7527%
+H val M1: 19.6915%
+H measure oos M1: 20.1777%
+H measure oot M1: 11.9849%
+Runtime M1:  26.311374
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 76.6345%
+AUC oot M2: 70.1647%
+DSC oos M2: 5.0417%
+DSC oot M2: 2.1615%
+MCC oos M2: 0.1026%
+MCC oot M2: 0.2333%
+H val M2: 20.1903%
+H measure oos M2: 20.9632%
+H measure oot M2: 12.5776%
+Runtime M2:  18.720446
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 76.3167%
+AUC oot M3: 75.9221%
+DSC oos M3: 4.0927%
+DSC oot M3: 2.0557%
+MCC oos M3: -0.0000%
+MCC oot M3: 0.0000%
+H val M3: 20.9307%
+H measure oos M3: 20.7538%
+H measure oot M3: 19.9813%
+Runtime M3:  61.412527
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.8157%
+AUC oot M4: 74.8957%
+DSC oos M4: 4.8129%
+DSC oot M4: 3.8419%
+MCC oos M4: 2.5817%
+MCC oot M4: 2.9042%
+H val M4: 21.2230%
+H measure oos M4: 21.4734%
+H measure oot M4: 18.2720%
+Runtime M4:  44.388922
+Unbalanced data Counter({0.0: 48577, 1.0: 1423})
+Balanced data using SMOTE+ENN Counter({1.0: 47483, 0.0: 42386})
+Runtime Data PreProcessing with SMOTE+ENN  196.033412
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 73.1312%
+AUC oot M5: 67.3314%
+DSC oos M5: 8.8052%
+DSC oot M5: 2.9068%
+MCC oos M5: 6.6102%
+MCC oot M5: 2.3614%
+H val M6: 13.7715%
+H measure oos M5: 14.9147%
+H measure oot M5: 8.0952%
+Runtime M6:  104.09221
+Run number : 34
+Train DR:  0.02812
+Validate DR:  0.02836
+Test oos DR:  0.004327153735437759
+Test oot DR:  0.0009585689150807164
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.4154%
+AUC oot M1: 68.7069%
+DSC oos M1: 7.6774%
+DSC oot M1: 2.5019%
+MCC oos M1: 6.2847%
+MCC oot M1: 2.2375%
+H val M1: 20.4971%
+H measure oos M1: 20.0494%
+H measure oot M1: 9.2173%
+Runtime M1:  26.093699
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 76.1976%
+AUC oot M2: 63.3786%
+DSC oos M2: 5.3640%
+DSC oot M2: 2.1485%
+MCC oos M2: 0.1171%
+MCC oot M2: 0.1491%
+H val M2: 18.8697%
+H measure oos M2: 19.7078%
+H measure oot M2: 8.9403%
+Runtime M2:  23.666823
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 77.5060%
+AUC oot M3: 73.7460%
+DSC oos M3: 4.4132%
+DSC oot M3: 2.0807%
+MCC oos M3: 0.0001%
+MCC oot M3: -0.0002%
+H val M3: 21.0977%
+H measure oos M3: 22.3701%
+H measure oot M3: 17.0592%
+Runtime M3:  139.953085
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.9368%
+AUC oot M4: 73.4872%
+DSC oos M4: 6.0287%
+DSC oot M4: 3.8970%
+MCC oos M4: 3.3560%
+MCC oot M4: 3.2525%
+H val M4: 20.3869%
+H measure oos M4: 21.4238%
+H measure oot M4: 16.5411%
+Runtime M4:  42.86264
+Unbalanced data Counter({0.0: 48594, 1.0: 1406})
+Balanced data using SMOTE+ENN Counter({1.0: 47411, 0.0: 42200})
+Runtime Data PreProcessing with SMOTE+ENN  200.243114
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 70.8382%
+AUC oot M5: 59.8282%
+DSC oos M5: 7.7644%
+DSC oot M5: 2.5122%
+MCC oos M5: 4.8051%
+MCC oot M5: 1.2352%
+H val M6: 13.2978%
+H measure oos M5: 12.6744%
+H measure oot M5: 3.0034%
+Runtime M6:  108.762797
+Run number : 35
+Train DR:  0.02794
+Validate DR:  0.0274
+Test oos DR:  0.004305625607400755
+Test oot DR:  0.0009886903042791862
+IR:  35.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 76.4534%
+AUC oot M1: 70.8009%
+DSC oos M1: 7.6358%
+DSC oot M1: 2.6283%
+MCC oos M1: 6.6760%
+MCC oot M1: 2.5037%
+H val M1: 19.5845%
+H measure oos M1: 20.3256%
+H measure oot M1: 12.0807%
+Runtime M1:  30.12889
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 75.6718%
+AUC oot M2: 63.8758%
+DSC oos M2: 5.3512%
+DSC oot M2: 2.2025%
+MCC oos M2: 0.1560%
+MCC oot M2: 0.0930%
+H val M2: 18.8540%
+H measure oos M2: 20.3866%
+H measure oot M2: 8.3783%
+Runtime M2:  18.527771
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 77.2388%
+AUC oot M3: 73.9231%
+DSC oos M3: 4.5234%
+DSC oot M3: 2.1265%
+MCC oos M3: -0.0000%
+MCC oot M3: -0.0002%
+H val M3: 21.2430%
+H measure oos M3: 22.3636%
+H measure oot M3: 18.0893%
+Runtime M3:  86.494738
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.5338%
+AUC oot M4: 73.5378%
+DSC oos M4: 7.2304%
+DSC oot M4: 3.9529%
+MCC oos M4: 4.3350%
+MCC oot M4: 3.0132%
+H val M4: 19.8515%
+H measure oos M4: 21.5273%
+H measure oot M4: 17.5234%
+Runtime M4:  42.25961
+Unbalanced data Counter({0.0: 48603, 1.0: 1397})
+Balanced data using SMOTE+ENN Counter({1.0: 47568, 0.0: 42458})
+Runtime Data PreProcessing with SMOTE+ENN  197.705112
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 71.4794%
+AUC oot M5: 63.1140%
+DSC oos M5: 8.2919%
+DSC oot M5: 2.7402%
+MCC oos M5: 5.7444%
+MCC oot M5: 1.6314%
+H val M6: 12.6449%
+H measure oos M5: 12.3561%
+H measure oot M5: 4.7911%
+Runtime M6:  113.406026
+Run number : 36
+Train DR:  0.02852
+Validate DR:  0.02794
+Test oos DR:  0.004450171609934924
+Test oot DR:  0.00097805922573855
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 74.4793%
+AUC oot M1: 72.1239%
+DSC oos M1: 7.7592%
+DSC oot M1: 2.6415%
+MCC oos M1: 5.8162%
+MCC oot M1: 2.6908%
+H val M1: 19.3772%
+H measure oos M1: 18.2948%
+H measure oot M1: 13.0920%
+Runtime M1:  26.907184
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 74.7373%
+AUC oot M2: 61.4969%
+DSC oos M2: 5.5025%
+DSC oot M2: 2.1763%
+MCC oos M2: 0.1027%
+MCC oot M2: 0.0777%
+H val M2: 19.0066%
+H measure oos M2: 17.7311%
+H measure oot M2: 7.9121%
+Runtime M2:  20.308752
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 75.9033%
+AUC oot M3: 76.3938%
+DSC oos M3: 4.4086%
+DSC oot M3: 2.1132%
+MCC oos M3: 0.0000%
+MCC oot M3: -0.0002%
+H val M3: 20.7059%
+H measure oos M3: 19.7679%
+H measure oot M3: 20.3226%
+Runtime M3:  86.667115
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.0646%
+AUC oot M4: 75.1618%
+DSC oos M4: 4.6435%
+DSC oot M4: 4.0751%
+MCC oos M4: 2.3255%
+MCC oot M4: 3.3323%
+H val M4: 19.4319%
+H measure oos M4: 20.1449%
+H measure oot M4: 18.6902%
+Runtime M4:  46.796071
+Unbalanced data Counter({0.0: 48574, 1.0: 1426})
+Balanced data using SMOTE+ENN Counter({1.0: 47482, 0.0: 42112})
+Runtime Data PreProcessing with SMOTE+ENN  185.455026
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 69.8861%
+AUC oot M5: 61.6069%
+DSC oos M5: 8.3939%
+DSC oot M5: 2.6936%
+MCC oos M5: 5.3726%
+MCC oot M5: 1.5893%
+H val M6: 13.0636%
+H measure oos M5: 11.0742%
+H measure oot M5: 3.9066%
+Runtime M6:  110.674539
+Run number : 37
+Train DR:  0.0273
+Validate DR:  0.02784
+Test oos DR:  0.004400964460136058
+Test oot DR:  0.000921360140188489
+IR:  36.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 75.8961%
+AUC oot M1: 69.9751%
+DSC oos M1: 7.8032%
+DSC oot M1: 2.4393%
+MCC oos M1: 6.4704%
+MCC oot M1: 2.3313%
+H val M1: 20.8581%
+H measure oos M1: 19.7818%
+H measure oot M1: 11.0789%
+Runtime M1:  32.096838
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 73.7365%
+AUC oot M2: 64.3845%
+DSC oos M2: 5.4539%
+DSC oot M2: 2.0564%
+MCC oos M2: 0.1298%
+MCC oot M2: 0.0945%
+H val M2: 20.0390%
+H measure oos M2: 17.7404%
+H measure oot M2: 10.3571%
+Runtime M2:  18.26473
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 75.8134%
+AUC oot M3: 72.7009%
+DSC oos M3: 4.5534%
+DSC oot M3: 1.9888%
+MCC oos M3: -0.0001%
+MCC oot M3: -0.0001%
+H val M3: 21.6628%
+H measure oos M3: 19.4197%
+H measure oot M3: 14.9877%
+Runtime M3:  67.713455
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.3329%
+AUC oot M4: 74.2196%
+DSC oos M4: 5.6150%
+DSC oot M4: 3.6444%
+MCC oos M4: 2.9972%
+MCC oot M4: 2.7785%
+H val M4: 22.0339%
+H measure oos M4: 20.6879%
+H measure oot M4: 17.7882%
+Runtime M4:  42.783014
+Unbalanced data Counter({0.0: 48635, 1.0: 1365})
+Balanced data using SMOTE+ENN Counter({1.0: 47602, 0.0: 42433})
+Runtime Data PreProcessing with SMOTE+ENN  208.269655
+Model: 5
+ Classifier  >>>  SMOTE+ENN+RF 
+AUC oos M5: 72.1240%
+AUC oot M5: 60.0781%
+DSC oos M5: 8.6901%
+DSC oot M5: 2.4515%
+MCC oos M5: 5.9007%
+MCC oot M5: 1.3245%
+H val M6: 13.5483%
+H measure oos M5: 13.5017%
+H measure oot M5: 3.1397%
+Runtime M6:  110.754782
+Run number : 38
+Train DR:  0.0282
+Validate DR:  0.02732
+Test oos DR:  0.004388662672686341
+Test oot DR:  0.0010064087685135803
+IR:  34.0
+Model: 1
+ Classifier >>> BalancedRandomForest 
+AUC oos M1: 77.3332%
+AUC oot M1: 70.4555%
+DSC oos M1: 7.9328%
+DSC oot M1: 2.6679%
+MCC oos M1: 6.7962%
+MCC oot M1: 2.4783%
+H val M1: 20.0228%
+H measure oos M1: 21.6140%
+H measure oot M1: 11.2153%
+Runtime M1:  27.712977
+Model: 2
+ Classifier >>> EasyEnsemble 
+AUC oos M2: 76.6257%
+AUC oot M2: 70.7365%
+DSC oos M2: 5.4346%
+DSC oot M2: 2.2479%
+MCC oos M2: 0.1135%
+MCC oot M2: 0.1263%
+H val M2: 17.4469%
+H measure oos M2: 20.4742%
+H measure oot M2: 12.5542%
+Runtime M2:  20.87804
+Model: 3
+ Classifier >>> CostSensingANN 
+AUC oos M3: 75.6612%
+AUC oot M3: 75.1961%
+DSC oos M3: 4.5601%
+DSC oot M3: 2.1518%
+MCC oos M3: 0.0000%
+MCC oot M3: 0.0001%
+H val M3: 19.9247%
+H measure oos M3: 19.0549%
+H measure oot M3: 20.0960%
+Runtime M3:  53.122657
+Model: 4
+ Classifier >>> LinearSVC(withClassWeights) 
+AUC oos M4: 76.8223%
+AUC oot M4: 75.2578%
+DSC oos M4: 5.7942%
+DSC oot M4: 4.2095%
+MCC oos M4: 3.1119%
+MCC oot M4: 3.5231%
+H val M4: 20.3936%
+H measure oos M4: 20.8326%
+H measure oot M4: 20.1814%
+Runtime M4:  44.292382
+Unbalanced data Counter({0.0: 48590, 1.0: 1410})
+Balanced data using SMOTE+ENN Counter({1.0: 47487, 0.0: 42291})
+Runtime Data PreProcessing with SMOTE+ENN  198.104309

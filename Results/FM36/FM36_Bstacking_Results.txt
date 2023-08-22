@@ -1,0 +1,86 @@
+Bootstrapping 40 times
+Run number : 1
+Train DR:  0.00568
+Validate DR:  0.00596
+Test oos DR:  0.0019336999174870719
+Test oot DR:  0.0007566940219523695
+IR:  175.0
+Model: 3
+ Classifier  >>>  Bstacking 
+AUC_oos : 75.0319%
+AUC_oot : 72.0503%
+DSC_oos : 2.0451%
+DSC_oot : 2.5883%
+MCC_oos : 3.5982%
+MCC_oot : 3.4709%
+H_oos : 18.8681%
+H_oot : 13.0350%
+Runtime :  13780.903605
+Run number : 2
+Train DR:  0.00618
+Validate DR:  0.0059
+Test oos DR:  0.0019274012206874397
+Test oot DR:  0.0006561311998628389
+IR:  161.0
+Model: 3
+ Classifier  >>>  Bstacking 
+AUC_oos : 73.7661%
+AUC_oot : 71.4135%
+DSC_oos : 1.9348%
+DSC_oot : 2.3038%
+MCC_oos : 3.1430%
+MCC_oot : 3.0988%
+H_oos : 15.9103%
+H_oot : 12.6673%
+Runtime :  13835.231315
+Run number : 3
+Train DR:  0.00604
+Validate DR:  0.00588
+Test oos DR:  0.0018014272846947966
+Test oot DR:  0.0007121826088963477
+IR:  165.0
+Model: 3
+ Classifier  >>>  Bstacking 
+AUC_oos : 74.3667%
+AUC_oot : 69.8752%
+DSC_oos : 1.8906%
+DSC_oot : 2.3896%
+MCC_oos : 3.2646%
+MCC_oot : 2.9820%
+H_oos : 17.6636%
+H_oot : 10.7448%
+Runtime :  13781.140578
+Run number : 4
+Train DR:  0.00582
+Validate DR:  0.00636
+Test oos DR:  0.0017573364070973716
+Test oot DR:  0.0006726169084021063
+IR:  171.0
+Model: 3
+ Classifier  >>>  Bstacking 
+AUC_oos : 72.7146%
+AUC_oot : 69.3439%
+DSC_oos : 1.7490%
+DSC_oot : 2.1753%
+MCC_oos : 2.8269%
+MCC_oot : 2.6554%
+H_oos : 14.9492%
+H_oot : 10.3775%
+Runtime :  13992.142062
+Run number : 5
+Train DR:  0.00648
+Validate DR:  0.0058
+Test oos DR:  0.0018077259814944287
+Test oot DR:  0.0007204254631659814
+IR:  153.0
+Model: 3
+ Classifier  >>>  Bstacking 
+AUC_oos : 75.7392%
+AUC_oot : 70.9306%
+DSC_oos : 1.8123%
+DSC_oot : 2.4074%
+MCC_oos : 3.2570%
+MCC_oot : 2.9660%
+H_oos : 18.9868%
+H_oot : 12.1264%
+Runtime :  14239.123566
